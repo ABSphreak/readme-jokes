@@ -1,0 +1,19 @@
+{
+  "name": "readme-jokes",
+  "version": "1.0.0",
+  "description": "README Jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABSphreak/readme-jokes.git"
+  },
+  "author": "Abhinav Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABSphreak/readme-jokes/issues"
+  },
+  "homepage": "https://github.com/ABSphreak/readme-jokes#readme"
+}
