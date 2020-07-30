@@ -1,0 +1,32 @@
+{
+  "1": {
+    "form": "qa",
+    "question": "Relationship status?",
+    "answer": "I'll leave the relations to the database."
+  },
+  "2": {
+    "form": "qa",
+    "question": "How do you get the code for the bank vault?",
+    "answer": "You checkout their branch."
+  },
+  "3": {
+    "form": "qa",
+    "question": "How did the developer announce their engagement?",
+    "answer": "They `return`ed `true`!"
+  },
+  "4": {
+    "form": "qa",
+    "question": "Why did the security conscious engineer refuse to pay their dinner bill?",
+    "answer": "Because they could not verify the checksum."
+  },
+  "5": {
+    "form": "qa",
+    "question": "What do you call a busy waiter?",
+    "answer": "A server."
+  },
+  "6": {
+    "form": "qa",
+    "question": "What do you call an idle server?",
+    "answer": "A waiter."
+  }
+}
