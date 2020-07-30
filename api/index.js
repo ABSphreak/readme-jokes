@@ -7,7 +7,11 @@ let answer = jokes[index].answer;
 
 module.exports = async (req, res) => {
   res.setHeader("Content-Type", "image/svg+xml");
+
   res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+  res.setHeader("Pragma", "no-cache");
+  res.setHeader("Expires", "0");
+
   res.send(`<svg width="495" height="120" viewBox="0 0 495 120" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<style>
 	.text { font: 600 16px  monospace; fill: #2F80ED }
