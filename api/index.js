@@ -1,6 +1,5 @@
 module.exports = async (req, res) => {
   const { username } = req.query;
-  let stats;
 
   res.setHeader("Content-Type", "image/svg+xml");
 
