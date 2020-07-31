@@ -12,9 +12,9 @@
 
 ### Usage
 
-Copy-paste this code into your readme.
-
 Endpoint URL: `https://readme-jokes.vercel.app/api`
+
+Copy-paste this code into your readme.
 
 ```md
 ![Jokes Card](https://readme-jokes.vercel.app/api)
@@ -23,3 +23,14 @@ Endpoint URL: `https://readme-jokes.vercel.app/api`
 ### Demo
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
+
+### Known Issues
+- Refreshing the jokes takes about an hour due to image caching
+
+### References
+- Jokes API has been generated from [wesbos/dad-jokes](https://github.com/wesbos/dad-jokes)
+- Project is inspired by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
