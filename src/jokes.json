@@ -1,32 +1,644 @@
 {
+  "0": {
+    "q": "Relationship status?",
+    "a": "I'll leave the relations to the database.",
+    "form": "qa"
+  },
   "1": {
-    "form": "qa",
-    "question": "Relationship status?",
-    "answer": "I'll leave the relations to the database."
+    "q": "How do you get the code for the bank vault?",
+    "a": "You checkout their branch.",
+    "form": "qa"
   },
   "2": {
-    "form": "qa",
-    "question": "How do you get the code for the bank vault?",
-    "answer": "You checkout their branch."
+    "q": "How did the developer announce their engagement?",
+    "a": "They <code>return</code>ed <code>true</code>!",
+    "form": "qa"
   },
   "3": {
-    "form": "qa",
-    "question": "How did the developer announce their engagement?",
-    "answer": "They `return`ed `true`!"
+    "q": "Why did the security conscious engineer refuse to pay their dinner bill?",
+    "a": "Because they could not verify the checksum.",
+    "form": "qa"
   },
   "4": {
-    "form": "qa",
-    "question": "Why did the security conscious engineer refuse to pay their dinner bill?",
-    "answer": "Because they could not verify the checksum."
+    "q": "What do you call a busy waiter?",
+    "a": "A server.",
+    "form": "qa"
   },
   "5": {
-    "form": "qa",
-    "question": "What do you call a busy waiter?",
-    "answer": "A server."
+    "q": "What do you call an idle server?",
+    "a": "A waiter.",
+    "form": "qa"
   },
-  "6": {
-    "form": "qa",
-    "question": "What do you call an idle server?",
-    "answer": "A waiter."
+  "6": "<code>[Please Enter New Password]</code><p>fortnight</p><code>[Error: Password is Two Week]</code>",
+  "7": {
+    "q": "How many Prolog programmers does it take to change a lightbulb?",
+    "a": "Yes.",
+    "form": "qa"
+  },
+  "8": "I’ve been hearing news about this big boolean. Huge if true.",
+  "9": {
+    "q": "What diet did the ghost developer go on?",
+    "a": "Boooooolean",
+    "form": "qa"
+  },
+  "10": {
+    "q": "Why was the developer unhappy at their job?",
+    "a": "They wanted arrays.",
+    "form": "qa"
+  },
+  "11": {
+    "q": "Why did 10 get paid less than \"10\"?",
+    "a": "There was workplace inequality.",
+    "form": "qa"
+  },
+  "12": {
+    "q": "Why was the function sad after a successful first call?",
+    "a": "It didn’t get a callback.",
+    "form": "qa"
+  },
+  "13": {
+    "q": "Why did the angry function exceed the callstack size?",
+    "a": "It got into an Argument with itself",
+    "form": "qa"
+  },
+  "14": {
+    "q": "Whats the object-oriented way to become wealthy?",
+    "a": "Inheritance",
+    "form": "qa"
+  },
+  "15": {
+    "q": "Why did the developer ground their kid?",
+    "a": "They weren't telling the truthy",
+    "form": "qa"
+  },
+  "16": {
+    "q": "What did the array say after it was extended?",
+    "a": "Stop objectifying me.",
+    "form": "qa"
+  },
+  "17": "**!false**It's funny 'cause it's true.",
+  "18": {
+    "q": "Where did the parallel function wash its hands?",
+    "a": "Async",
+    "form": "qa"
+  },
+  "19": {
+    "q": "I'm starting a band called HTML Encoder",
+    "a": "Looking to buy a guitar \\&",
+    "form": "qa"
+  },
+  "20": {
+    "q": "Why did the functions stop calling each other?",
+    "a": "Because they had constant arguments.",
+    "form": "qa"
+  },
+  "21": {
+    "q": "What's the second movie about a database engineer called?",
+    "a": "The SQL.",
+    "form": "qa"
+  },
+  "22": {
+    "q": "Why doesn't Hollywood make more Big Data movies?",
+    "a": "NoSQL.",
+    "form": "qa"
+  },
+  "23": "A programmer's significant other tells them, \"Run to the store and pick up a loaf of bread. If they have eggs, get a dozen.\"The programmer comes home with 12 loaves of bread.",
+  "24": {
+    "q": "What did the spider do on the computer?",
+    "a": "Made a website!",
+    "form": "qa"
+  },
+  "25": {
+    "q": "What did the computer do at lunchtime?",
+    "a": "Had a byte!",
+    "form": "qa"
+  },
+  "26": {
+    "q": "What does a baby computer call his father?",
+    "a": "Data!",
+    "form": "qa"
+  },
+  "27": {
+    "q": "Why did the computer keep sneezing?",
+    "a": "It had a virus!",
+    "form": "qa"
+  },
+  "28": {
+    "q": "What is a computer virus?",
+    "a": "A terminal illness!",
+    "form": "qa"
+  },
+  "29": "I never tell the same joke twiceI have a DRY sense of humor.",
+  "30": {
+    "q": "Why was the computer freezing?",
+    "a": "It left its Windows open!",
+    "form": "qa"
+  },
+  "31": {
+    "q": "Why was there a bug in the computer?",
+    "a": "Because it was looking for a byte to eat?",
+    "form": "qa"
+  },
+  "32": {
+    "q": "Why did the computer squeak?",
+    "a": "Because someone stepped on its mouse!",
+    "form": "qa"
+  },
+  "33": {
+    "q": "What do you get when you cross a computer and a life guard?",
+    "a": "A screensaver!",
+    "form": "qa"
+  },
+  "34": {
+    "q": "Where do all the cool mice live?",
+    "a": "In their mousepads!",
+    "form": "qa"
+  },
+  "35": {
+    "q": "What do you get when you cross a computer with an elephant?",
+    "a": "Lots of memory!",
+    "form": "qa"
+  },
+  "36": "Java truly is an OOP language...As in: OOPs I used Java!",
+  "37": {
+    "q": "How do programming pirates pass method parameters?",
+    "a": "Varrrrarrrgs.",
+    "form": "qa"
+  },
+  "38": {
+    "q": "How do programming shepherds count their flock?",
+    "a": "With lambda functions",
+    "form": "qa"
+  },
+  "39": {
+    "q": "What airline do developers prefer when they're in a rush?",
+    "a": "Delta.",
+    "form": "qa"
+  },
+  "40": {
+    "q": "How did pirates collaborate before computers ?",
+    "a": "Pier to pier networking.",
+    "form": "qa"
+  },
+  "41": {
+    "q": "Why don't bachelors like Git?",
+    "a": "Because they are afraid to commit.",
+    "form": "qa"
+  },
+  "42": {
+    "q": "A SQL query goes into a bar, walks up to two tables and asks:",
+    "a": "Can I JOIN you?",
+    "form": "qa"
+  },
+  "43": {
+    "q": "How does a developer make a cheer?",
+    "a": "[\"hip\",\"hip\"] // (hip hip array!)",
+    "form": "qa"
+  },
+  "44": {
+    "q": "Why was the developer's family upset with them at dinner?",
+    "a": "They forgot to git squash before going home",
+    "form": "qa"
+  },
+  "45": {
+    "q": "What did JavaScript call his son?",
+    "a": "JSON!",
+    "form": "qa"
+  },
+  "46": {
+    "q": "What did the proud React component say to its child?",
+    "a": "I've got to give you props",
+    "form": "qa"
+  },
+  "47": {
+    "q": "What did the server say to his client who was having a bad day?",
+    "a": "Everything's going to be 200",
+    "form": "qa"
+  },
+  "48": {
+    "q": "Why did the developer go broke?",
+    "a": "Because they used up all their cache",
+    "form": "qa"
+  },
+  "49": {
+    "q": "Are computers dangerous?",
+    "a": "Nah, they don't byte. They just nibble a bit.",
+    "form": "qa"
+  },
+  "50": {
+    "q": "How did the mafioso kill the Node server?",
+    "a": "Tie await to it and let it async.",
+    "form": "qa"
+  },
+  "51": {
+    "q": "You know what the best thing about booleans is?",
+    "a": "Even if you are wrong, you are only off by a bit.",
+    "form": "qa"
+  },
+  "52": {
+    "q": "Why couldn’t the user update a file on a shared server?",
+    "a": "They didn’t have the write permissions",
+    "form": "qa"
+  },
+  "53": {
+    "q": "What do you do when you can't understand your husband's behavior?",
+    "a": "man man",
+    "form": "qa"
+  },
+  "54": {
+    "q": "What do you call a doctor who fixes websites?",
+    "a": "A URLogist",
+    "form": "qa"
+  },
+  "55": {
+    "q": "How many developers does it take to change a light bulb?",
+    "a": "None. It's a hardware issue",
+    "form": "qa"
+  },
+  "56": {
+    "q": "Why do programmers always mix up Halloween and Christmas?",
+    "a": "Because 31 OCT == 25 DEC",
+    "form": "qa"
+  },
+  "57": {
+    "q": "Why do kayakers make bad programmers?",
+    "a": "Because they're afraid of waterfall.",
+    "form": "qa"
+  },
+  "58": {
+    "q": "What are computers' favorite snacks?",
+    "a": "Microchips, phish sticks, and cookies. But just a few bytes of each.",
+    "form": "qa"
+  },
+  "59": {
+    "q": "What do computers love to do at the beach?",
+    "a": "Put on some spam block for protection so they can safely surf the net while catching some .WAVs!",
+    "form": "qa"
+  },
+  "60": {
+    "q": "What do you call a computer that sings?",
+    "a": "A-dell.",
+    "form": "qa"
+  },
+  "61": {
+    "q": "What's a compiler developer's favorite spice?",
+    "a": "Parsley.",
+    "form": "qa"
+  },
+  "62": {
+    "q": "When do front end developers go out to eat?",
+    "a": "On their lunch <code>&lt;&#98;&#114;&gt;</code>.",
+    "form": "qa"
+  },
+  "63": {
+    "q": "A SQL developer walked into a NoSQL bar.",
+    "a": "They left because they couldn't find a table.",
+    "form": "qa"
+  },
+  "64": {
+    "q": "How do you help JS errors?",
+    "a": "You <code>console</code> them!",
+    "form": "qa"
+  },
+  "65": {
+    "q": "Why don't parents teach their kids about regular expressions?",
+    "a": "Because they don't want them playing with matches",
+    "form": "qa"
+  },
+  "66": {
+    "q": "Why didn't the <code>div</code> get invited to the dinner party?",
+    "a": "Because it had no <code>class</code>!",
+    "form": "qa"
+  },
+  "67": {
+    "q": "Why aren't cryptocurrency engineers allowed to vote?",
+    "a": "Because they're miners!",
+    "form": "qa"
+  },
+  "68": {
+    "q": "Why did the constant break up with the variable?",
+    "a": "Because they changed.",
+    "form": "qa"
+  },
+  "69": {
+    "q": "Why did the database administrator leave his wife?",
+    "a": "She had one-to-many relationships.",
+    "form": "qa"
+  },
+  "70": "Asynchronous JavaScript is amazing.I Promise you, await and see.",
+  "71": {
+    "q": "What did the Class say in court when put on trial?",
+    "a": "I strongly object!",
+    "form": "qa"
+  },
+  "72": {
+    "q": "Why do Java developers wear glasses?",
+    "a": "Because they don't C#!",
+    "form": "qa"
+  },
+  "73": {
+    "q": "What are the three hardest problems in computer science?",
+    "a": "Naming things and off-by-one errors",
+    "form": "qa"
+  },
+  "74": {
+    "q": "What did the fruit basket say to the developer?",
+    "a": "I hope you're ready for some pear programming!",
+    "form": "qa"
+  },
+  "75": {
+    "q": "How does a sysadmin keep a fire going?",
+    "a": "They rotate the logs.",
+    "form": "qa"
+  },
+  "76": "I've got a great UDP joke but I'm afraid you wouldn't get it...",
+  "77": "A programmer was arrested for writing unreadable code. They refused to comment.",
+  "78": "There are 10 types of people in this world, those who understand binary and those who don't.",
+  "79": {
+    "q": "I love you and I only love you. Does that turn you on?",
+    "a": "ATE:** No.",
+    "form": "qa"
+  },
+  "80": {
+    "q": "Why do all HTML emails get blocked?",
+    "a": "Because they are all <code>span</code>",
+    "form": "qa"
+  },
+  "81": {
+    "q": "What did the process say after working in an infinite loop all day?",
+    "a": "I need a break.",
+    "form": "qa"
+  },
+  "82": {
+    "q": "An Agent died unexpectedly. How was the crime solved?",
+    "a": "By looking at the Stack Trace.",
+    "form": "qa"
+  },
+  "83": {
+    "q": "Why did the document store go out of business?",
+    "a": "It had NoSQL.",
+    "form": "qa"
+  },
+  "84": {
+    "q": "Why can't SQL and NoSQL Developers date one other?",
+    "a": "Because they don't agree on relationships.",
+    "form": "qa"
+  },
+  "85": {
+    "q": "Why is Python like the Soviet Union?",
+    "a": "Because it has no private fields",
+    "form": "qa"
+  },
+  "86": {
+    "q": "Where did the API go to eat?",
+    "a": "To the RESTaurant",
+    "form": "qa"
+  },
+  "87": {
+    "q": "Why shouldn't you trust Matlab developers?",
+    "a": "Because they're always plotting something.",
+    "form": "qa"
+  },
+  "88": {
+    "q": "Why did the developer have to quit smoking?",
+    "a": "Because they couldn't afford to pay the new syntax.",
+    "form": "qa"
+  },
+  "89": {
+    "q": "How does a programmer open a jar for their significant other?",
+    "a": "They install Java",
+    "form": "qa"
+  },
+  "90": {
+    "q": "What did the psychic say to the developers?",
+    "a": "I see dev people.",
+    "form": "qa"
+  },
+  "91": {
+    "q": "Where does the pirate stash all of their digital treasures?",
+    "a": "RAR",
+    "form": "qa"
+  },
+  "92": {
+    "q": "What is React's favorite movie genre?",
+    "a": "Suspense",
+    "form": "qa"
+  },
+  "93": {
+    "q": "Why couldn't the React component understand the joke?",
+    "a": "Because it didn't get the context.",
+    "form": "qa"
+  },
+  "94": {
+    "q": "What did XHR say to AJAX when it thought it was being a Mean Girl?",
+    "a": "Stop trying to make fetch happen!",
+    "form": "qa"
+  },
+  "95": {
+    "q": "What was Grace Hopper's favorite car?",
+    "a": "VW Bug",
+    "form": "qa"
+  },
+  "96": {
+    "q": "What sits on a pirate's shoulder and calls, \"Pieces of seven, Pieces of seven\"?",
+    "a": "Parroty error.",
+    "form": "qa"
+  },
+  "97": {
+    "q": "What is a pirate's favorite programming language?",
+    "a": "You'd think it was R, but a pirate's first love is Objectively C.",
+    "form": "qa"
+  },
+  "98": {
+    "q": "Why did the programmer come home crying?\"",
+    "a": "His friends were always boolean him.",
+    "form": "qa"
+  },
+  "99": "**-** Knock Knock!**-** An async function**-** Who's there?",
+  "100": {
+    "q": "What PostgreSQL library should Python developers use for adult-oriented code?",
+    "a": "psycoPG13",
+    "form": "qa"
+  },
+  "101": "The next time you're using Safari or Firefox and it's running slowly, you can say to yourself, \"[I could've had a V8](https://www.youtube.com/watch?v=ld8eAH0MW00)\".",
+  "102": {
+    "q": "What accommodations did the JavaScript developer request at the hotel?",
+    "a": "A room with a Vue.",
+    "form": "qa"
+  },
+  "103": {
+    "q": "Where do developers drink?",
+    "a": "The Foo bar",
+    "form": "qa"
+  },
+  "104": {
+    "q": "Why do assembly programmers need to know how to swim?",
+    "a": "Because they work below C level.",
+    "form": "qa"
+  },
+  "105": {
+    "q": "Who used the internet before it was cool?",
+    "a": "Httpsters",
+    "form": "qa"
+  },
+  "106": {
+    "q": "What kind of computer can hold a musical note?",
+    "a": "A Dell.",
+    "form": "qa"
+  },
+  "107": {
+    "q": "Why did the web developer always go to the wrong hotel room?",
+    "a": "They were in room 301.",
+    "form": "qa"
+  },
+  "108": {
+    "q": "How do you stop a web developer stealing your stuff?",
+    "a": "Write 403 on it.",
+    "form": "qa"
+  },
+  "109": {
+    "q": "Why are machine learning models so fit?",
+    "a": "Because they do weight training.",
+    "form": "qa"
+  },
+  "110": {
+    "q": "Why did Gargamel shut down the internet?",
+    "a": "Because he didn't want people **SMURFING** the web!",
+    "form": "qa"
+  },
+  "111": {
+    "q": "What did the command line die of?",
+    "a": "A Terminal illness.",
+    "form": "qa"
+  },
+  "112": {
+    "q": "Did you hear what the clumsy cryptographer did to their password?",
+    "a": "Made a hash of it.",
+    "form": "qa"
+  },
+  "113": {
+    "q": "Why are keyboards always working so hard?",
+    "a": "Cause they have two shifts!",
+    "form": "qa"
+  },
+  "114": {
+    "q": "What are clouds made of?",
+    "a": "Mostly linux servers.",
+    "form": "qa"
+  },
+  "115": {
+    "q": "How does Mr. Potato Head (dev edition 0.0.1) remove his mustache?",
+    "a": "git stache pop",
+    "form": "qa"
+  },
+  "116": {
+    "q": "Why can't you use 'Soup' as your password?",
+    "a": "Because it isn't <code>stroganoff</code>",
+    "form": "qa"
+  },
+  "117": {
+    "q": "Why do developers use mechanical keyboards?",
+    "a": "To strongly type their code.",
+    "form": "qa"
+  },
+  "118": "A new database query walks into a bar.The server says \"Sorry, cache only.\"",
+  "119": "What's the best tool for automatically ignoring long email threads about tech buzzwords?\"Block-chain\"",
+  "120": {
+    "q": "What is a developer's favorite country song?",
+    "a": "Hello World - by Lady Antebellum",
+    "form": "qa"
+  },
+  "121": {
+    "q": "Why was nobody given food at the developer conference?",
+    "a": "It was a serverless function!",
+    "form": "qa"
+  },
+  "122": {
+    "q": "Why did the developer cancel their dinner plans?",
+    "a": "They were unable to fulfil peer dependencies",
+    "form": "qa"
+  },
+  "123": {
+    "q": "Why did the functional programmer finally move out of their house?",
+    "a": "For(e) closure",
+    "form": "qa"
+  },
+  "124": {
+    "q": "How do JavaScript developers break up?",
+    "a": "They always promise to callback",
+    "form": "qa"
+  },
+  "125": {
+    "q": "Why do developers mixup Terminals and Polygraphs?",
+    "a": "Because they both can see a lie (CLI)",
+    "form": "qa"
+  },
+  "126": {
+    "q": "Did you hear about the programmer that was scared of IDEs?",
+    "a": "They retreated back into their shell",
+    "form": "qa"
+  },
+  "127": {
+    "q": "What do you call optimistic front-end developers?",
+    "a": "Stack half-full developers.",
+    "form": "qa"
+  },
+  "128": "Chuck Norris can take a screenshot of his blue screen.",
+  "129": {
+    "q": "Have you heard the one about the Corduroy pillow?",
+    "a": "It's making HEADLINES!",
+    "form": "qa"
+  },
+  "130": {
+    "q": "Hey officer! How did the hackers escape?",
+    "a": "No idea. They just ransomware.",
+    "form": "qa"
+  },
+  "131": {
+    "q": "Why can’t data engineers become hat makers?",
+    "a": "They can only guarantee two thirds of a CAP!",
+    "form": "qa"
+  },
+  "132": {
+    "q": "How did the hippie learn about database transactions?",
+    "a": "By taking ACID",
+    "form": "qa"
+  },
+  "133": {
+    "q": "Why is it called the Dark Ages?",
+    "a": "There were a lot of KNIGHTS!",
+    "form": "qa"
+  },
+  "134": {
+    "q": "What did the Network Administrator say when they caught a nasty virus?",
+    "a": "It hurts when IP",
+    "form": "qa"
+  },
+  "135": {
+    "q": "Which programming language is the shortest?",
+    "a": "HTML. Because it doesn't have a neck between its <code>head</code> and <code>body</code>.",
+    "form": "qa"
+  },
+  "136": {
+    "q": "What good can come of 2989 witches casting a hex?",
+    "a": "None, it is always 0xBAD",
+    "form": "qa"
+  },
+  "137": {
+    "q": "Did you hear about the witch who was off by two when casting a hex?",
+    "a": "They failed to make the target DEAD and made them DEAF instead!",
+    "form": "qa"
+  },
+  "138": "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k.It was a trip down Memory Lane.",
+  "139": "Lisp programmers don't make prank calls. They make <code>FUNCALL</code>s",
+  "140": {
+    "q": "Why do Front-End Developers eat lunch alone?",
+    "a": "Because, they don't know how to join tables.",
+    "form": "qa"
+  },
+  "141": {
+    "q": "What advice do you give to a JS developer who has never played baseball?",
+    "a": "Try catch.",
+    "form": "qa"
   }
 }
