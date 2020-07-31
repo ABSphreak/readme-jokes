@@ -1,4 +1,4 @@
-<div align="center">
-<h1>README Jokes</h1>
-<p>🤣 Jokes for your GitHub READMEs</p>
-</div>
+<p align="center">
+ <h2 align="center">README Jokes</h2>
+ <i align="center">Jokes on your README.</i>
+</p>
