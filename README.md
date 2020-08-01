@@ -25,7 +25,8 @@ Copy-paste this code into your readme.
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 ### Known Issues
-- Refreshing the jokes takes about an hour due to image caching
+- Refreshing the jokes takes about an hour due to image caching.
+- Not Mobile responsive.
 
 ### References
 - Jokes API has been generated from [wesbos/dad-jokes](https://github.com/wesbos/dad-jokes)
