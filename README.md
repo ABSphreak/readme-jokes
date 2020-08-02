@@ -20,6 +20,12 @@ Copy-paste this code into your readme.
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 ```
 
+or
+
+```html
+<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+```
+
 ### Demo
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
