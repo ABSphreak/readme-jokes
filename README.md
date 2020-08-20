@@ -5,8 +5,10 @@
 
 <p align="center">
   <a href="#demo">View Demo</a>
-  ·
+  ●
   <a href="https://github.com/ABSphreak/readme-jokes/issues/new">Report Bug</a>
+  ●
+  <a href="https://github.com/ABSphreak/readme-jokes/issues/">All Issues</a>
 </p>
 
 
@@ -34,9 +36,9 @@ Copy-paste this code into your readme.
 
 
 ### Known Issues
-- Refreshing the jokes takes about an hour due to image caching.
-- Not Mobile responsive.
-- Jokes are not randomizing on different endpoint requests.
+- Refreshing the jokes takes about an hour due to image caching. #2
+- Not Mobile responsive. #3
+- Jokes are not randomizing on different endpoint requests. #4
 
 ### Contributions
 - Clone this repository.
