@@ -38,16 +38,17 @@ Embed one of these in your README:
 
 ### Known Issues
 
-- Refreshing the jokes takes about an hour due to image caching. #2
-- Not Mobile responsive. #3
-- Jokes are not randomizing on different endpoint requests. #4
+- Refreshing the jokes takes about an hour due to image caching. [#2](https://github.com/ABSphreak/readme-jokes/issues/2)
+- Not Mobile responsive. [#3](https://github.com/ABSphreak/readme-jokes/issues/3)
+- Jokes are not randomizing on different endpoint requests. [#4](https://github.com/ABSphreak/readme-jokes/issues/4)
 
 ### Contributions
 
-- Clone this repository.
+- Fork this repository.
 - Deploy on your own [Vercel](https://vercel.com/) instance.
 - See [issues](https://github.com/ABSphreak/readme-jokes/issues) that need help.
 - Open a [PR](https://github.com/ABSphreak/readme-jokes/pulls), if you solve something.
+- Got some idea? Just open an [issue](https://github.com/ABSphreak/readme-jokes/issues/new).
 
 ### References
 
