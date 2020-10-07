@@ -642,12 +642,12 @@
 		"form": "qa"
 	},
 	"142": {
-		"q": "Why arrays Chuck Norris declares are of infinite size.",
+		"q": "Why are the arrays that Chuck Norris declare, of infinite size.",
 		"a": "Because Chuck Norris knows no bounds.",
 		"form": "qa"
 	},
 	"143": {
-		"q": "Why doesm't Chuck Norris doesn’t need garbage collection.",
+		"q": "Why doesn't Chuck Norris need garbage collection.",
 		"a": "Because he doesn’t call <code>.Dispose()</code>, he calls <code>.DropKick()</code>.",
 		"form": "qa"
 	},
@@ -656,7 +656,7 @@
 		"a": "He read the shampoo bottle instructions: Lather. Rinse. Repeat.",
 		"form": "qa"
 	},
-	"145": "When I wrote this code, only God and I understood what I was doing. Now, God only knows.",
+	"145": "When I wrote this code, only God and I understood what I was doing. Now, only God knows.",
 	"146": {
 		"q": "What did the Java code say to the C code?",
 		"a": "You've got no class.",
@@ -668,16 +668,12 @@
 		"form": "qa"
 	},
 	"148": {
-		"q": "Why did the geek add body { padding-top: 1000px; } to his Facebook profile?",
+		"q": "Why did the geek add <code>body { padding-top: 1000px; }</code> to his Facebook profile?",
 		"a": "He wanted to keep a low profile.",
 		"form": "qa"
 	},
 	"149": "8 bytes walk into a bar, the bartenders asks \"What will it be?\" One of them says, \"Make us a double.\"",
 	"150": "An SEO couple had twins. For the first time, they were happy with duplicate content.",
 	"151": "LISP - Lots of Infuriating Superfluous Parentheses",
-	"152": {
-		"q": "I'm starting a band called 1023MB.",
-		"a": "I don't think we'll ever get a gig",
-		"form": "qa"
-	}
+	"152": "I'm starting a band called 1023MB. I don't think we'll ever get a gig."
 }
