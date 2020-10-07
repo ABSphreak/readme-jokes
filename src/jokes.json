@@ -640,5 +640,10 @@
     "q": "What advice do you give to a JS developer who has never played baseball?",
     "a": "Try catch.",
     "form": "qa"
+  },
+  "142": {
+    "q": "Why do programmers prefer dark mode?",
+    "a": "Because light attracts Bug",
+    "form": "qa"
   }
 }
