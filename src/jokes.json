@@ -680,5 +680,10 @@
     "q": "Why did the C# developer fall asleep?",
     "a": "Becuase they didn't like Java",
     "form": "qa"
+  },
+  "154": {
+    "q": "How do you tell an introverted computer scientist from an extroverted scientist?",
+    "a": "An extroverted computer scientist looks at your shoes when he talks to you.",
+    "form": "qa"
   }
 }
