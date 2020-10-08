@@ -79,11 +79,7 @@ if (jokes[index].q) {
 </svg>`;
 }
 
-const cacheSeconds = clampValue(
-	parseInt(cache_seconds || CONSTANTS.ONE_MINUTE, 10),
-	CONSTANTS.ONE_MINUTE,
-	CONSTANTS.ONE_DAY
-);
+const cacheSeconds = CONSTANTS.ONE_MINUTE;
 
 module.exports = async (req, res) => {
 	res.setHeader('Content-Type', 'image/svg+xml');
