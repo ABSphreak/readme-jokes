@@ -680,5 +680,10 @@
     "q": "Why did the C# developer fall asleep?",
     "a": "Becuase they didn't like Java",
     "form": "qa"
+  },
+  "154": {
+    "q": "Why did the developer quit his job?",
+    "a": "He didn't get arrays.",
+    "form": "qa"
   }
 }
