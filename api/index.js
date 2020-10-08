@@ -1,4 +1,8 @@
-let jokes = require("../src/jokes.json");
+const { clampValue, CONSTANTS } = require('../src/utils');
+
+let jokes = require('../src/jokes.json');
+// If cache times are to be set via query parameters
+const cache_seconds = {};
 
 let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
 // let index = 139;
@@ -8,9 +12,9 @@ console.log(index);
 let renderJoke = ``;
 
 if (jokes[index].q) {
-  let question = jokes[index].q;
-  let answer = jokes[index].a;
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+	let question = jokes[index].q;
+	let answer = jokes[index].a;
+	renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -44,7 +48,7 @@ if (jokes[index].q) {
 	</foreignObject>
 </svg>`;
 } else {
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+	renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -75,7 +79,14 @@ if (jokes[index].q) {
 </svg>`;
 }
 
+const cacheSeconds = clampValue(
+	parseInt(cache_seconds || CONSTANTS.ONE_MINUTE, 10),
+	CONSTANTS.ONE_MINUTE,
+	CONSTANTS.ONE_DAY
+);
+
 module.exports = async (req, res) => {
-  res.setHeader("Content-Type", "image/svg+xml");
-  res.send(renderJoke);
+	res.setHeader('Content-Type', 'image/svg+xml');
+	res.setHeader('Cache-Control', `public, max-age=${cacheSeconds}`);
+	res.send(renderJoke);
 };
