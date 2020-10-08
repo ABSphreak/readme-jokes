@@ -680,5 +680,10 @@
 		"q": "Why do programmers always mix up Halloween and Christmas?", 
 		"a": "Because Oct 31 equals Dec 25.", 
 		"form": "qa" 
+	},
+	"154": {
+		"q": "Why did the developer quit his job?",
+		"a": "He did not get arrays.",
+		"form": "qa"
 	}
 }
