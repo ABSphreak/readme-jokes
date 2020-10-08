@@ -683,7 +683,7 @@
   },
   "154": {
     "q": "Why did the developer quit his job?",
-    "a": "He didn't get arrays.",
+    "a": "He did not get arrays.",
     "form": "qa"
   }
 }
