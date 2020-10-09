@@ -635,8 +635,7 @@
 		"q": "Why do Front-End Developers eat lunch alone?",
 		"a": "Because, they don't know how to join tables.",
 		"form": "qa"
-	},
-	"141": {
+	},	"141": {
 		"q": "What advice do you give to a JS developer who has never played baseball?",
 		"a": "Try catch.",
 		"form": "qa"
@@ -675,5 +674,21 @@
 	"149": "8 bytes walk into a bar, the bartenders asks \"What will it be?\" One of them says, \"Make us a double.\"",
 	"150": "An SEO couple had twins. For the first time, they were happy with duplicate content.",
 	"151": "LISP - Lots of Infuriating Superfluous Parentheses",
-	"152": "I'm starting a band called 1023MB. I don't think we'll ever get a gig."
+	"152": "I'm starting a band called 1023MB. I don't think we'll ever get a gig.",
+	"153": { 
+		"q": "Why do programmers always mix up Halloween and Christmas?", 
+		"a": "Because Oct 31 equals Dec 25.", 
+		"form": "qa" 
+	},
+	"154": {
+		"q": "Why did the developer quit his job?",
+		"a": "He did not get arrays.",
+		"form": "qa"
+  },
+  "155": "There are two ways to write error-free programs; only the third one works.",
+  "156": {
+		"q": "Why couldn't the developer pull the weeds from the garden?",
+		"a": "They didn't have root access.",
+		"form": "qa"
+  }
 }
