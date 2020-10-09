@@ -1,16 +1,24 @@
-let jokes = require("../src/jokes.json");
+const { clampValue, CONSTANTS } = require('../src/utils');
+let jokes = require('../src/jokes.json');
 
-let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
-// let index = 139;
+// Max cache age (Currently = 60 seconds)
+const cacheSeconds = CONSTANTS.ONE_MINUTE;
 
-console.log(index);
+module.exports = async (req, res) => {
+	/* 
+		let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
+	*/
+	let index = Math.floor(Math.random() * Object.keys(jokes).length);
+	// let index = 139;
 
-let renderJoke = ``;
+	console.log(index);
 
-if (jokes[index].q) {
-  let question = jokes[index].q;
-  let answer = jokes[index].a;
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+	let renderJoke = ``;
+
+	if (jokes[index].q) {
+		let question = jokes[index].q;
+		let answer = jokes[index].a;
+		renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -43,8 +51,8 @@ if (jokes[index].q) {
 		</div>
 	</foreignObject>
 </svg>`;
-} else {
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+	} else {
+		renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -73,9 +81,11 @@ if (jokes[index].q) {
 		</div>
 	</foreignObject>
 </svg>`;
-}
+	}
 
-module.exports = async (req, res) => {
-  res.setHeader("Content-Type", "image/svg+xml");
-  res.send(renderJoke);
+	// Sets the type of content sent
+	res.setHeader('Content-Type', 'image/svg+xml');
+	// Set the Cache type to public (Any cache can store the data) and the max-age
+	res.setHeader('Cache-Control', `public, max-age=${cacheSeconds}`);
+	res.send(renderJoke);
 };

@@ -635,8 +635,7 @@
 		"q": "Why do Front-End Developers eat lunch alone?",
 		"a": "Because, they don't know how to join tables.",
 		"form": "qa"
-	},
-	"141": {
+	},	"141": {
 		"q": "What advice do you give to a JS developer who has never played baseball?",
 		"a": "Try catch.",
 		"form": "qa"
