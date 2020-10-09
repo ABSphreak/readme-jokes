@@ -685,5 +685,10 @@
 		"q": "Why did the developer quit his job?",
 		"a": "He did not get arrays.",
 		"form": "qa"
+	},
+	"155": {
+		"q": "What do cats and programmers have in common?",
+		"a": "When either one is unusually happy and excited, an appropriate question would be, 'did you find a bug?'",
+		"form": "qa"
 	}
 }
