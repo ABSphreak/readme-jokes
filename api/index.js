@@ -1,12 +1,14 @@
 const { clampValue, CONSTANTS } = require('../src/utils');
 let jokes = require('../src/jokes.json');
+
+// Max cache age (Currently = 60 seconds)
 const cacheSeconds = CONSTANTS.ONE_MINUTE;
 
 module.exports = async (req, res) => {
-	// If cache times are to be set via query parameters
-	const cache_seconds = null;
-
-	let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
+	/* 
+		let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
+	*/
+	let index = Math.floor(Math.random() * Object.keys(jokes).length);
 	// let index = 139;
 
 	console.log(index);
@@ -81,7 +83,9 @@ module.exports = async (req, res) => {
 </svg>`;
 	}
 
+	// Sets the type of content sent
 	res.setHeader('Content-Type', 'image/svg+xml');
+	// Set the Cache type to public (Any cache can store the data) and the max-age
 	res.setHeader('Cache-Control', `public, max-age=${cacheSeconds}`);
 	res.send(renderJoke);
 };
