@@ -675,18 +675,13 @@
 	"150": "An SEO couple had twins. For the first time, they were happy with duplicate content.",
 	"151": "LISP - Lots of Infuriating Superfluous Parentheses",
 	"152": "I'm starting a band called 1023MB. I don't think we'll ever get a gig.",
-	"153": { 
-		"q": "Why do programmers always mix up Halloween and Christmas?", 
-		"a": "Because Oct 31 equals Dec 25.", 
-		"form": "qa" 
-	},
-	"154": {
+	"153": {
 		"q": "Why did the developer quit his job?",
 		"a": "He did not get arrays.",
 		"form": "qa"
   },
-  "155": "There are two ways to write error-free programs; only the third one works.",
-  "156": {
+  "154": "There are two ways to write error-free programs; only the third one works.",
+  "155": {
 		"q": "Why couldn't the developer pull the weeds from the garden?",
 		"a": "They didn't have root access.",
 		"form": "qa"
