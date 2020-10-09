@@ -685,5 +685,11 @@
 		"q": "Why did the developer quit his job?",
 		"a": "He did not get arrays.",
 		"form": "qa"
-	}
+  },
+  "155": "There are two ways to write error-free programs; only the third one works.",
+  "156": {
+		"q": "Why couldn't the developer pull the weeds from the garden?",
+		"a": "They didn't have root access.",
+		"form": "qa"
+  }
 }
