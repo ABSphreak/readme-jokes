@@ -24,7 +24,7 @@ const theme = {
 					quote_color: "#63B1FF",
 					code_color: "#f72585";
 				},
-	blood-red: {
+	halloween: {
 					container_border: "1px solid #DE2C2C",
 					container_background: "rgba(21,3,3,1)",
 					question_color: "#DE2C2C",
