@@ -23,19 +23,19 @@ module.exports = async (req, res) => {
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				.container {
-					border: 2px solid #8ac926;
+					border: 2px solid #72e7ff;
 					border-radius: 10px;
-					background: #242423;
+					background: rgba(4,26,48,1);
 				}
 				.text{
 					padding: 0.5rem;
 					font-family: Arial, Helvetica, sans-serif;
 				}
 				.question {
-					color: #ffca3a;
+					color: #2289F0;
 				}
 				.answer {
-					color: #8ac926;
+					color: #63B1FF;
 				}
 				code {
 					font-size: 1.2rem;
@@ -57,16 +57,16 @@ module.exports = async (req, res) => {
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				.container {
-					border: 2px solid #fdfcdc;
+					border: 2px solid #72e7ff;
 					border-radius: 10px;
-					background: #242423;
+					background: rgba(4,26,48,1);
 				}
 				.text{
 					padding: 0.5rem;
 					font-family: Arial, Helvetica, sans-serif;
 				}
 				.quote {
-					color: #fdfcdc;
+					color: #63B1FF;
 				}
 				code {
 					font-size: 1.2rem;
