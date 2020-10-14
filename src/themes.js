@@ -40,6 +40,22 @@ const theme = {
 					quote_color: "#2cdd93",
 					code_color: "#f72585";
 				},
+	pink-int: {
+					container_border: "1px solid #FF7F9D",
+					container_background: "#CF4B6A",
+					question_color: "#FBC0FC",
+					answer_color: "#FEE0FF",
+					quote_color: "#FEE0FF",
+					code_color: "#ffffff";
+	},
+	day-sky: {
+					container_border: "1px solid #1777D6",
+					container_background: "#ABCDEF",
+					question_color: "#074685",
+					answer_color: "#FEE0FF",
+					quote_color: "#0C6FD1",
+					code_color: "#f72585";
+	},
 };
 
 module.exports(theme);
