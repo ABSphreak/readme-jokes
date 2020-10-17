@@ -32,9 +32,24 @@ Embed one of these in your README:
 <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 ```
 
+### Customization Parameters
+- `bgColor` → **Background Color**
+- `borderColor` → **Border Color**
+- `qColor` → **Question Color**
+- `aColor` → **Answer Color**
+- `textColor` → **Normal text Color**
+- `codeColor` → **Code Color**
+
+*Note: Use '%' encoding while setting these values*<br/>
+*eg: `#FFF` will be `%23FFF`*
+
 ### Demo
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
+
+![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0)
+
+![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
 
 ### Known Issues
 
