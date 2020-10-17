@@ -460,7 +460,7 @@
 		"a": "psycoPG13",
 		"form": "qa"
 	},
-	"101": "The next time you're using Safari or Firefox and it's running slowly, you can say to yourself, \"[I could've had a V8](https://www.youtube.com/watch?v=ld8eAH0MW00)\".",
+	"101": "The next time you're using Safari or Firefox and it's running slowly, you can say to yourself,<br/> \"I could've had a V8 (a browser 'engine')\".",
 	"102": {
 		"q": "What accommodations did the JavaScript developer request at the hotel?",
 		"a": "A room with a Vue.",
@@ -671,7 +671,7 @@
 		"a": "He wanted to keep a low profile.",
 		"form": "qa"
 	},
-	"149": "8 bytes walk into a bar, the bartenders asks \"What will it be?\" One of them says, \"Make us a double.\"",
+	"149": "8 bytes walk into a bar, the bartenders asks \"What will it be?\" <br/>One of them says, \"Make us a double.\"",
 	"150": "An SEO couple had twins. For the first time, they were happy with duplicate content.",
 	"151": "LISP - Lots of Infuriating Superfluous Parentheses",
 	"152": "I'm starting a band called 1023MB. I don't think we'll ever get a gig.",
