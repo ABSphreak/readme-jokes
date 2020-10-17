@@ -5,13 +5,7 @@ let jokes = require('../src/jokes.json');
 const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
-  /*
-		let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
-	*/
   let index = Math.floor(Math.random() * Object.keys(jokes).length);
-  // let index = 139;
-
-  console.log(index);
 
   let renderJoke = ``;
 
