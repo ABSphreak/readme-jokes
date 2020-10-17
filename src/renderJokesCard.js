@@ -78,6 +78,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute) => {
     </foreignObject>
   </svg>
   `;
+  return card;
 };
 
 module.exports = {
