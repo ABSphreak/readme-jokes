@@ -8,27 +8,34 @@ const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
   let index = Math.floor(Math.random() * Object.keys(jokes).length);
-  let selectedTheme = req.query.theme;
+  let {
+    borderColor,
+    qColor,
+    aColor,
+    textColor,
+    bgColor,
+    codeColor,
+  } = req.query;
   let renderJoke = ``;
 
   if (jokes[index].q) {
     let question = jokes[index].q;
     let answer = jokes[index].a;
     renderJoke = qnaCard(
-      '#ffca3a',
-      '#8ac926',
-      'linear-gradient(26deg, rgba(4,26,48,1) 0%, rgba(33,93,142,1) 54%, rgba(0,212,255,1) 100%)',
-      '#8ac926',
-      '#f72585',
+      qColor ? qColor : '#ffca3a',
+      aColor ? aColor : '#8ac926',
+      bgColor ? bgColor : '#242423',
+      borderColor ? borderColor : '#8ac926',
+      codeColor ? codeColor : '#f72585',
       question,
       answer
     );
   } else {
     renderJoke = quoteCard(
-      '#ffca3a',
-      'linear-gradient(26deg, rgba(4,26,48,1) 0%, rgba(33,93,142,1) 54%, rgba(0,212,255,1) 100%)',
-      '#8ac926',
-      '#f72585',
+      textColor ? textColor : '#ffca3a',
+      bgColor ? bgColor : '#242423',
+      borderColor ? borderColor : '#8ac926',
+      codeColor ? codeColor : '#f72585',
       jokes[index]
     );
   }
