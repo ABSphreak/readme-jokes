@@ -685,5 +685,19 @@
 		"q": "Why couldn't the developer pull the weeds from the garden?",
 		"a": "They didn't have root access.",
 		"form": "qa"
-  }
+  },
+  "156": "Dev 1 -  We have a problem. Dev 2 -  Let’s use RegEx! Dev 1 -  Now we have two problems",
+  "157": {
+    "q": "How do you tell HTML from HTML5?",
+		"a": "Try it out in Internet Explorer, if it does not work then it's HTML5.",
+		"form": "qa"
+  },
+  "158": {
+    "q": "What do computers and air conditioners have in common?",
+		"a": "They both become useless when you open windows.",
+		"form": "qa"
+  },
+  "159": "99 little bugs in the code, 99 bugs in the code, 1 bug fixed...compile again, 100 little bugs in the code.",
+  "160": "UNIX is very user friendly... It's just very particular about who its friends are.",
+  "161": "Debugging: Removing the needles from the haystack."
 }
