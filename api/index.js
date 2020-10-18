@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
 
   if(theme) {
     if(!themes[theme]) theme = 'default';
-    let {
+    {
       borderColor,
       bg,
       qColor,
