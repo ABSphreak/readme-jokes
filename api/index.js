@@ -8,7 +8,15 @@ const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
   let index = Math.floor(Math.random() * Object.keys(jokes).length);
-  let theme = req.query.theme;
+  let {
+    borderColor,
+    qColor,
+    aColor,
+    textColor,
+    bgColor,
+    codeColor,
+    theme,
+  } = req.query;
   let renderJoke = ``;
 
   if(theme) {
@@ -21,15 +29,6 @@ module.exports = async (req, res) => {
     quoteColor = colorTheme.quoteColor;
     codeColor = colorTheme.codeColor;
   }
-
-  let {
-    borderColor,
-    qColor,
-    aColor,
-    textColor,
-    bgColor,
-    codeColor,
-  } = req.query;
 
   if (jokes[index].q) {
     let question = jokes[index].q;
