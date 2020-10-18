@@ -21,14 +21,13 @@ module.exports = async (req, res) => {
 
   if(theme) {
     if(!themes[theme]) theme = 'default';
-    {
-      borderColor,
-      bg,
-      qColor,
-      aColor,
-      quoteColor,
-      codeColor,
-    } = themes[theme];
+    const colorTheme = themes[theme];
+    borderColor = colorTheme.borderColor;
+    bgColor = colorTheme.bgColor;
+    qColor = colorTheme.qColor;
+    aColor = colorTheme.aColor;
+    quoteColor = colorTheme.quoteColor;
+    codeColor = colorTheme.codeColor;
   }
 
   if (jokes[index].q) {
