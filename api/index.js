@@ -1,7 +1,7 @@
 let jokes = require('../src/jokes.json');
 const { CONSTANTS } = require('../src/utils');
 const { qnaCard, quoteCard } = require('../src/renderJokesCard');
-const theme = require('../src/themes');
+const themes = require('../src/themes');
 
 // Max cache age (Currently = 60 seconds)
 const cacheSeconds = CONSTANTS.TEN_SECONDS;
@@ -15,8 +15,20 @@ module.exports = async (req, res) => {
     textColor,
     bgColor,
     codeColor,
+    theme,
   } = req.query;
   let renderJoke = ``;
+
+  if(theme) {
+    if(!themes[theme]) theme = 'default';
+    const colorTheme = themes[theme];
+    borderColor = colorTheme.borderColor;
+    bgColor = colorTheme.bgColor;
+    qColor = colorTheme.qColor;
+    aColor = colorTheme.aColor;
+    quoteColor = colorTheme.quoteColor;
+    codeColor = colorTheme.codeColor;
+  }
 
   if (jokes[index].q) {
     let question = jokes[index].q;
