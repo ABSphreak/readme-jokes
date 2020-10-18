@@ -8,6 +8,8 @@ const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
   let index = Math.floor(Math.random() * Object.keys(jokes).length);
+  let renderJoke = ``;
+
   let {
     borderColor,
     qColor,
@@ -17,18 +19,15 @@ module.exports = async (req, res) => {
     codeColor,
     theme,
   } = req.query;
-  let renderJoke = ``;
 
-  if(theme) {
-    if(!themes[theme]) theme = 'default';
-    const colorTheme = themes[theme];
-    borderColor = colorTheme.borderColor;
-    bgColor = colorTheme.bgColor;
-    qColor = colorTheme.qColor;
-    aColor = colorTheme.aColor;
-    quoteColor = colorTheme.quoteColor;
-    codeColor = colorTheme.codeColor;
-  }
+  if(!themes[theme]) theme = 'default';
+  const colorTheme = themes[theme];
+  borderColor = borderColor ? borderColor : colorTheme.borderColor;
+  bgColor = bgColor ? bgColor : colorTheme.bgColor;
+  qColor = qColor ? qColor : colorTheme.qColor;
+  aColor = aColor ? aColor : colorTheme.aColor;
+  quoteColor = quoteColor ? quoteColor : colorTheme.quoteColor;
+  codeColor = codeColor ? codeColor : colorTheme.codeColor;
 
   if (jokes[index].q) {
     let question = jokes[index].q;
