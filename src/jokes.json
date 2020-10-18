@@ -699,5 +699,12 @@
   },
   "159": "99 little bugs in the code, 99 bugs in the code, 1 bug fixed...compile again, 100 little bugs in the code.",
   "160": "UNIX is very user friendly... It's just very particular about who its friends are.",
-  "161": "Debugging: Removing the needles from the haystack."
+  "161": "Debugging: Removing the needles from the haystack.",
+  "162": "You are the CSS to my HTML",
+  "163": "An optimist says: “the glass is half full.”<br>A pessimist says: “the glass is half empty.”<br>A programmer says: “the glass is twice as large as necessary.",
+  "164": "CSS developers have the biggest ego, they think they're so !important",
+  "165": {
+		"q": "Hamlet: To be - or not to be...",
+		"a": "Programmer: True !"
+  }
 }
