@@ -17,6 +17,7 @@ module.exports = async (req, res) => {
     textColor,
     bgColor,
     codeColor,
+    quoteColor,
     theme,
   } = req.query;
 
