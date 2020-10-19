@@ -1,81 +1,60 @@
-let jokes = require("../src/jokes.json");
+let jokes = require('../src/jokes.json');
+const { CONSTANTS } = require('../src/utils');
+const { qnaCard, quoteCard } = require('../src/renderJokesCard');
+const themes = require('../src/themes');
 
-let index = Math.floor(Math.random() * Object.keys(jokes).length + 1);
-// let index = 139;
-
-console.log(index);
-
-let renderJoke = ``;
-
-if (jokes[index].q) {
-  let question = jokes[index].q;
-  let answer = jokes[index].a;
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				.container {
-					border: 2px solid #8ac926;
-					border-radius: 10px;
-					background: #242423;
-				}
-				.text{
-					padding: 0.5rem;
-					font-family: Arial, Helvetica, sans-serif;
-				}
-				.question {
-					color: #ffca3a;
-				}
-				.answer {
-					color: #8ac926;
-				}
-				code {
-					font-size: 1.2rem;
-					color: #f72585;
-				}
-			</style>
-			<div class="container">
-				<div class="text">
-					<p class="question"><b>Q.</b> ${question}</p>
-					<p class="answer"><b>A.</b> ${answer} </p>
-				</div>
-			</div>
-		</div>
-	</foreignObject>
-</svg>`;
-} else {
-  renderJoke = `<svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				.container {
-					border: 2px solid #fdfcdc;
-					border-radius: 10px;
-					background: #242423;
-				}
-				.text{
-					padding: 0.5rem;
-					font-family: Arial, Helvetica, sans-serif;
-				}
-				.quote {
-					color: #fdfcdc;
-				}
-				code {
-					font-size: 1.2rem;
-					color: #f72585;
-				}
-			</style>
-			<div class="container">
-				<div class="text">
-					<p class="quote">${jokes[index]}</p>
-				</div>
-			</div>
-		</div>
-	</foreignObject>
-</svg>`;
-}
+// Max cache age (Currently = 60 seconds)
+const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
-  res.setHeader("Content-Type", "image/svg+xml");
+  let index = Math.floor(Math.random() * Object.keys(jokes).length);
+  let renderJoke = ``;
+
+  let {
+    borderColor,
+    qColor,
+    aColor,
+    textColor,
+    bgColor,
+    codeColor,
+    quoteColor,
+    theme,
+  } = req.query;
+
+  if(!themes[theme]) theme = 'default';
+  const colorTheme = themes[theme];
+  borderColor = borderColor ? borderColor : colorTheme.borderColor;
+  bgColor = bgColor ? bgColor : colorTheme.bgColor;
+  qColor = qColor ? qColor : colorTheme.qColor;
+  aColor = aColor ? aColor : colorTheme.aColor;
+  quoteColor = quoteColor ? quoteColor : colorTheme.quoteColor;
+  codeColor = codeColor ? codeColor : colorTheme.codeColor;
+
+  if (jokes[index].q) {
+    let question = jokes[index].q;
+    let answer = jokes[index].a;
+    renderJoke = qnaCard(
+      qColor ? qColor : '#ffca3a',
+      aColor ? aColor : '#8ac926',
+      bgColor ? bgColor : '#242423',
+      borderColor ? borderColor : '#8ac926',
+      codeColor ? codeColor : '#f72585',
+      question,
+      answer
+    );
+  } else {
+    renderJoke = quoteCard(
+      textColor ? textColor : '#ffca3a',
+      bgColor ? bgColor : '#242423',
+      borderColor ? borderColor : '#8ac926',
+      codeColor ? codeColor : '#f72585',
+      jokes[index]
+    );
+  }
+
+  // Sets the type of content sent
+  res.setHeader('Content-Type', 'image/svg+xml');
+  // Set the Cache type to public (Any cache can store the data) and the max-age
+  res.setHeader('Cache-Control', `public, max-age=${cacheSeconds}`);
   res.send(renderJoke);
 };
