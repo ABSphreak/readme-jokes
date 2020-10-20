@@ -54,5 +54,237 @@
     "aColor": "#FEE0FF",
     "quoteColor": "#0C6FD1",
     "codeColor": "#f72585"
+  },
+  "radical": {
+    "borderColor": "#42cbf5",
+    "bgColor": "#141321",
+    "qColor": "#fe428e",
+    "aColor": "#a9fef7",
+    "quoteColor": "#a9fef7",
+    "codeColor": "#f8d847"
+  },
+  "merko": {
+    "borderColor": "#b7d364",
+    "bgColor": "#0a0f0b",
+    "qColor": "#abd200",
+    "aColor": "#68b587",
+    "quoteColor": "#68b587",
+    "codeColor": ""
+  },
+  "gruvbox": {
+    "borderColor": "#fe8019",
+    "bgColor": "#282828",
+    "qColor": "#fabd2f",
+    "aColor": "#8ec07c",
+    "quoteColor": "#8ec07c",
+    "codeColor": ""
+  },
+  "tokyonight": {
+    "borderColor": "#bf91f3",
+    "bgColor": "#1a1b27",
+    "qColor": "#70a5fd",
+    "aColor": "#38bdae",
+    "quoteColor": "#38bdae",
+    "codeColor": ""
+  },
+  "onedark": {
+    "borderColor": "#8eb573",
+    "bgColor": "#282c34",
+    "qColor": "#e4bf7a",
+    "aColor": "#df6d74",
+    "quoteColor": "#df6d74",
+    "codeColor": ""
+  },
+  "cobalt": {
+    "borderColor": "#0480ef",
+    "bgColor": "#193549",
+    "qColor": "#e683d9",
+    "aColor": "#75eeb2",
+    "quoteColor": "#75eeb2",
+    "codeColor": ""
+  },
+  "synthwave": {
+    "borderColor": "#ef8539",
+    "bgColor": "#2b213a",
+    "qColor": "#e2e9ec",
+    "aColor": "#e5289e",
+    "quoteColor": "#e5289e",
+    "codeColor": ""
+  },
+  "dracula": {
+    "borderColor": "#79dafa",
+    "bgColor": "#282a36",
+    "qColor": "#ff6e96",
+    "aColor": "#f8f8f2",
+    "quoteColor": "#f8f8f2",
+    "codeColor": ""
+  },
+  "prussian": {
+    "borderColor": "#38a0ff",
+    "bgColor": "#172f45",
+    "qColor": "#bddfff",
+    "aColor": "#6e93b5",
+    "quoteColor": "#6e93b5",
+    "codeColor": ""
+  },
+  "monokai": {
+    "borderColor": "#e28905",
+    "bgColor": "#272822",
+    "qColor": "#eb1f6a",
+    "aColor": "#f1f1eb",
+    "quoteColor": "#f1f1eb",
+    "codeColor": ""
+  },
+  "vue": {
+    "borderColor": "#41b883",
+    "bgColor": "#fffefe",
+    "qColor": "#41b883",
+    "aColor": "#273849",
+    "quoteColor": "#273849",
+    "codeColor": ""
+  },
+  "vue-dark": {
+    "borderColor": "#41b883",
+    "bgColor": "#273849",
+    "qColor": "#41b883",
+    "aColor": "#fffefe",
+    "quoteColor": "#fffefe",
+    "codeColor": ""
+  },
+  "nightowl": {
+    "borderColor": "#ffeb95",
+    "bgColor": "#011627",
+    "qColor": "#c792ea",
+    "aColor": "#7fdbca",
+    "quoteColor": "#7fdbca",
+    "codeColor": ""
+  },
+  "buefy": {
+    "borderColor": "#ff3860",
+    "bgColor": "#ffffff",
+    "qColor": "#7957d5",
+    "aColor": "#363636",
+    "quoteColor": "#363636",
+    "codeColor": ""
+  },
+  "blue-green": {
+    "borderColor": "#f5b700",
+    "bgColor": "#040f0f",
+    "qColor": "#2f97c1",
+    "aColor": "#0cf574",
+    "quoteColor": "#0cf574",
+    "codeColor": ""
+  },
+  "algolia": {
+    "borderColor": "#2DDE98",
+    "bgColor": "#050F2C",
+    "qColor": "#00AEFF",
+    "aColor": "#FFFFFF",
+    "quoteColor": "#FFFFFF",
+    "codeColor": ""
+  },
+  "darcula": {
+    "borderColor": "#84628F",
+    "bgColor": "#242424",
+    "qColor": "#BA5F17",
+    "aColor": "#BEBEBE",
+    "quoteColor": "#BEBEBE",
+    "codeColor": ""
+  },
+  "bear": {
+    "borderColor": "#00AEFF",
+    "bgColor": "#1f2023",
+    "qColor": "#e03c8a",
+    "aColor": "#bcb28d",
+    "quoteColor": "#bcb28d",
+    "codeColor": ""
+  },
+  "solarized-dark": {
+    "borderColor": "#b58900",
+    "bgColor": "#002b36",
+    "qColor": "#268bd2",
+    "aColor": "#859900",
+    "quoteColor": "#859900",
+    "codeColor": ""
+  },
+  "solarized-light": {
+    "borderColor": "#b58900",
+    "bgColor": "#fdf6e3",
+    "qColor": "#268bd2",
+    "aColor": "#859900",
+    "quoteColor": "#859900",
+    "codeColor": ""
+  },
+  "gotham": {
+    "borderColor": "#599cab",
+    "bgColor": "#0c1014",
+    "qColor": "#2aa889",
+    "aColor": "#99d1ce",
+    "quoteColor": "#99d1ce",
+    "codeColor": ""
+  },
+  "material-palenight": {
+    "borderColor": "#89ddff",
+    "bgColor": "#292d3e",
+    "qColor": "#c792ea",
+    "aColor": "#a6accd",
+    "quoteColor": "#a6accd",
+    "codeColor": ""
+  },
+  "graywhite": {
+    "borderColor": "#24292e",
+    "bgColor": "#ffffff",
+    "qColor": "#24292e",
+    "aColor": "#24292e",
+    "quoteColor": "#24292e",
+    "codeColor": ""
+  },
+  "ayu-mirage": {
+    "borderColor": "#73d0ff",
+    "bgColor": "#1f2430",
+    "qColor": "#f4cd7c",
+    "aColor": "#c7c8c2",
+    "quoteColor": "#c7c8c2",
+    "codeColor": ""
+  },
+  "calm": {
+    "borderColor": "#edae49",
+    "bgColor": "#373f51",
+    "qColor": "#e07a5f",
+    "aColor": "#ebcfb2",
+    "quoteColor": "#ebcfb2",
+    "codeColor": ""
+  },
+  "flag-india": {
+    "borderColor": "#250E62",
+    "bgColor": "#ffffff",
+    "qColor": "#ff8f1c",
+    "aColor": "#509E2F",
+    "quoteColor": "#509E2F",
+    "codeColor": ""
+  },
+  "omni": {
+    "borderColor": "#e7de79",
+    "bgColor": "#191622",
+    "qColor": "#FF79C6",
+    "aColor": "#E1E1E6",
+    "quoteColor": "#E1E1E6",
+    "codeColor": ""
+  },
+  "react": {
+    "borderColor": "#61dafb",
+    "bgColor": "#20232a",
+    "qColor": "#61dafb",
+    "aColor": "#ffffff",
+    "quoteColor": "#ffffff",
+    "codeColor": ""
+  },
+  "blueberry": {
+    "borderColor": "#89ddff",
+    "bgColor": "#242938",
+    "qColor": "#82aaff",
+    "aColor": "#27e8a7",
+    "quoteColor": "#27e8a7",
+    "codeColor": ""
   }
 }
