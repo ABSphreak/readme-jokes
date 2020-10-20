@@ -1,5 +1,5 @@
 let jokes = require('../src/jokes.json');
-const { CONSTANTS } = require('../src/utils');
+const { CONSTANTS, getRandomArrayElement } = require('../src/utils');
 const { qnaCard, quoteCard } = require('../src/renderJokesCard');
 const themes = require('../src/themes');
 
@@ -20,6 +20,10 @@ module.exports = async (req, res) => {
     quoteColor,
     theme,
   } = req.query;
+
+  theme = theme.toLoweCase();
+
+  if(theme === 'random') theme = getRandomArrayElement(Object.keys(themes));
 
   if(!themes[theme]) theme = 'default';
   const colorTheme = themes[theme];
