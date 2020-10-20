@@ -706,5 +706,15 @@
   "165": {
 		"q": "Hamlet: To be - or not to be...",
 		"a": "Programmer: True !"
-  }
+  },
+  "166": "The Professor says \"Welcome to English 101\".The student panicks.\"What's wrong?\" asks the Professor.\"I missed the first 4 English classes\".",
+  "167": {
+		"q": "What do cats and programmers have in common?",
+		"a": "When either one is unusually happy and excited, an appropriate question would be, \"did you find a bug\".",
+		"form": "qa"
+	},
+	"168": "Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says \"Do you get the reference?\" But Java didn't.",
+	"169":"To understand recursion. You must first understand recursion.",
+	"170": "Two bytes meet. The first byte asks, \"Are you ill?\"The second byte replies, \"No, just feeling a bit off.\" ",
+	"171": "I put so much more effort into naming my first Wi-Fi than my first child."
 }

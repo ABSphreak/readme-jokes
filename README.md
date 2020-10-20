@@ -39,8 +39,9 @@ Embed one of these in your README:
 - `aColor` → **Answer Color**
 - `textColor` → **Normal text Color**
 - `codeColor` → **Code Color**
+- `theme` → **Theme (Must be one of `default, gradientBlue, solidBlue, halloween, watermelon, pinkish, daySky`)**
 
-*Note: Use '%' encoding while setting these values*<br/>
+*Note: Use URL-encoded `#` for color values i.e. `%23`<br/>*
 *eg: `#FFF` will be `%23FFF`*
 
 ### Demo
