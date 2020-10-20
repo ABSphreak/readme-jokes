@@ -82,6 +82,7 @@ Embed one of these in your README:
 - `omni`
 - `react`
 - `blueberry`
+- `random (Will randomly select one of the above themes)`
 
 
 </details>
