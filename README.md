@@ -39,10 +39,58 @@ Embed one of these in your README:
 - `aColor` → **Answer Color**
 - `textColor` → **Normal text Color**
 - `codeColor` → **Code Color**
-- `theme` → **Theme (Must be one of `default, gradientBlue, solidBlue, halloween, watermelon, pinkish, daySky`)**
+- `theme` → **Theme (Must be one of the following)**
+
+<details>
+<summary>Click to available themes.</summary>
+
+<br/>
+
+- `default`
+- `gradientBlue`
+- `solidBlue`
+- `halloween`
+- `watermelon`
+- `pinkish`
+- `daySky`
+- `radical`
+- `merko`
+- `gruvbox`
+- `tokyonight`
+- `onedark`
+- `cobalt`
+- `synthwave`
+- `dracula`
+- `prussian`
+- `monokai`
+- `vue`
+- `vue-dark`
+- `nightowl`
+- `buefy`
+- `blue-green`
+- `algolia`
+- `darcula`
+- `bear`
+- `solarized-dark`
+- `solarized-light`
+- `gotham`
+- `material-palenight`
+- `graywhite`
+- `ayu-mirage`
+- `calm`
+- `flag-india`
+- `omni`
+- `react`
+- `blueberry`
+
+
+</details>
+
+<br/>
 
 *Note: Use URL-encoded `#` for color values i.e. `%23`<br/>*
-*eg: `#FFF` will be `%23FFF`*
+*eg: `#FFF` will be `%23FFF`<br/>*
+*Note: You can also use the URL parameters to customize the themes.*
 
 ### Demo
 
