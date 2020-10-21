@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
     theme,
   } = req.query;
 
-  theme = theme.toLowerCase();
+  theme = theme ? theme.toLowerCase() : theme;
 
   if(theme === 'random') theme = getRandomArrayElement(Object.keys(themes));
 
