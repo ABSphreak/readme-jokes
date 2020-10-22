@@ -721,5 +721,10 @@
     "q": "Why was the developer unable to find his room?",
     "a": "His room card said 404",
     "form": "qa"
+  },
+  "173": {
+    "q": "How do you tell an introverted computer scientist from an extroverted scientist?",
+    "a": "An extroverted computer scientist looks at your shoes when he talks to you.",
+    "form": "qa"
   }
 }
