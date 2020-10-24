@@ -726,5 +726,10 @@
     "q": "How do you tell an introverted computer scientist from an extroverted scientist?",
     "a": "An extroverted computer scientist looks at your shoes when he talks to you.",
     "form": "qa"
+  },
+	"174": {
+    "q": "Didi you know?",
+    "a": "Spiders are the only web developers in the world that linke finding bugs",
+    "form": "qa"
   }
 }
