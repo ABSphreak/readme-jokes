@@ -726,5 +726,11 @@
     "q": "How do you tell an introverted computer scientist from an extroverted scientist?",
     "a": "An extroverted computer scientist looks at your shoes when he talks to you.",
     "form": "qa"
-  }
+  },
+  "174": {
+    "q": "How do you comfort a JS bug?",
+    "a": "You console it",
+    "form": "qa"
+  },
+  "175": "When an Apple employees die, does their life HTML5 in front of their eyes?"
 }
