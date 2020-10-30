@@ -732,5 +732,10 @@
     "a": "You console it",
     "form": "qa"
   },
-  "175": "When an Apple employees die, does their life HTML5 in front of their eyes?"
+  "175": "When an Apple employees die, does their life HTML5 in front of their eyes?",
+  "176": {
+    "q": "What's 0.1+0.2?",
+    "a": "It's 0.30000000000000004",
+    "form": "qa"
+  }
 }
