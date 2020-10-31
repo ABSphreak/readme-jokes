@@ -732,5 +732,10 @@
     "a": "You console it",
     "form": "qa"
   },
-  "175": "When an Apple employees die, does their life HTML5 in front of their eyes?"
+  "175": "When an Apple employees die, does their life HTML5 in front of their eyes?",
+  "176": {
+    "q": "Why do programmers prefer dark mode?",
+    "a": "Because light attracts bugs.",
+    "form": "qa"
+  },
 }
