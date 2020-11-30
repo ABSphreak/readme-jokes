@@ -747,5 +747,10 @@
     "q": "Did you know?",
     "a": "Spiders are the only web developers in the world that like finding bugs",
     "form": "qa"
+  },
+  "179": {
+	  "q": "Don't add a programming language to your skills list after watching a 15-minute video on it.",
+	  "a": "Yes wait until you've written hello world",
+	  "form": "qa"
   }
 }
