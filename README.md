@@ -103,9 +103,7 @@ Embed one of these in your README:
 
 ### Known Issues
 
-- Refreshing the jokes takes about an hour due to image caching. [#2](https://github.com/ABSphreak/readme-jokes/issues/2)
 - Not Mobile responsive. [#3](https://github.com/ABSphreak/readme-jokes/issues/3)
-- Jokes are not randomizing on different endpoint requests. [#4](https://github.com/ABSphreak/readme-jokes/issues/4)
 
 ### Contributions
 
@@ -124,4 +122,4 @@ Embed one of these in your README:
 
 <p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
 <h2 align="center">🌟Star this repository🌟</h2>
-<p align="center">Created by <a href="https://www.abhinav.sh/">Abhinav Sharma</a> | Deployed on <a href="https://vercel.com/">Vercel</a></p>
+<p align="center">Created by <a href="https://www.abhinav.sh/">Abhinav Sharma</a> & <a href="https://github.com/ABSphreak/readme-jokes/graphs/contributors">Community</a> | Deployed on <a href="https://vercel.com/">Vercel</a></p>
