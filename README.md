@@ -21,7 +21,6 @@ Embed one of these in your README:
 
 ```md
 <!-- Markdown -->
-
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 ```
 
