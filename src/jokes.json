@@ -541,7 +541,7 @@
 		"a": "To strongly type their code.",
 		"form": "qa"
 	},
-	"118": "A new database query walks into a bar.The server says \"Sorry, cache only.\"",
+	"118": "A new database query walks into a bar. The server says \"Sorry, cache only.\"",
 	"119": "What's the best tool for automatically ignoring long email threads about tech buzzwords?\"Block-chain\"",
 	"120": {
 		"q": "What is a developer's favorite country song?",
@@ -752,5 +752,10 @@
 	  "q": "Don't add a programming language to your skills list after watching a 15-minute video on it.",
 	  "a": "Yes wait until you've written hello world",
 	  "form": "qa"
+  },
+  "180": {
+	"q": "Why do all python developers wear glasses?",
+	"a": "Because they can't C",
+	"form": "qa"
   }
 }
