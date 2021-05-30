@@ -753,8 +753,11 @@
 	  "a": "Yes wait until you've written hello world",
 	  "form": "qa"
   },
-  "180": {
-	"q": "Why do all python developers wear glasses?",
+
+  "180": "A data Scientist goes to a bar and sees two tables. Then he says: Hey bro... Can I join you?",
+
+  "181": {
+	"q": "Why do python developers wear glasses?",
 	"a": "Because they can't C",
 	"form": "qa"
   }
