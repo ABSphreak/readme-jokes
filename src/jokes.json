@@ -761,4 +761,9 @@
 	"a": "Because they can't C",
 	"form": "qa"
   }
+  "182": {
+	"q": "Why does the Docker container fail?",
+	"a": "So that, Kubernetes can start it again",
+	"form": "qa"
+  }
 }
