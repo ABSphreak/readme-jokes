@@ -635,7 +635,8 @@
 		"q": "Why do Front-End Developers eat lunch alone?",
 		"a": "Because, they don't know how to join tables.",
 		"form": "qa"
-	},	"141": {
+	},
+	"141": {
 		"q": "What advice do you give to a JS developer who has never played baseball?",
 		"a": "Try catch.",
 		"form": "qa"
@@ -679,91 +680,92 @@
 		"q": "Why did the developer quit his job?",
 		"a": "He did not get arrays.",
 		"form": "qa"
-  },
-  "154": "There are two ways to write error-free programs; only the third one works.",
-  "155": {
+	},
+	"154": "There are two ways to write error-free programs; only the third one works.",
+	"155": {
 		"q": "Why couldn't the developer pull the weeds from the garden?",
 		"a": "They didn't have root access.",
 		"form": "qa"
-  },
-  "156": "Dev 1 -  We have a problem. Dev 2 -  Let’s use RegEx! Dev 1 -  Now we have two problems",
-  "157": {
-    "q": "How do you tell HTML from HTML5?",
+	},
+	"156": "Dev 1 -  We have a problem. Dev 2 -  Let’s use RegEx! Dev 1 -  Now we have two problems",
+	"157": {
+		"q": "How do you tell HTML from HTML5?",
 		"a": "Try it out in Internet Explorer, if it does not work then it's HTML5.",
 		"form": "qa"
-  },
-  "158": {
-    "q": "What do computers and air conditioners have in common?",
+	},
+	"158": {
+		"q": "What do computers and air conditioners have in common?",
 		"a": "They both become useless when you open windows.",
 		"form": "qa"
-  },
-  "159": "99 little bugs in the code, 99 bugs in the code, 1 bug fixed...compile again, 100 little bugs in the code.",
-  "160": "UNIX is very user friendly... It's just very particular about who its friends are.",
-  "161": "Debugging: Removing the needles from the haystack.",
-  "162": "You are the CSS to my HTML",
-  "163": "An optimist says: “the glass is half full.”<br>A pessimist says: “the glass is half empty.”<br>A programmer says: “the glass is twice as large as necessary.",
-  "164": "CSS developers have the biggest ego, they think they're so !important",
-  "165": {
+	},
+	"159": "99 little bugs in the code, 99 bugs in the code, 1 bug fixed...compile again, 100 little bugs in the code.",
+	"160": "UNIX is very user friendly... It's just very particular about who its friends are.",
+	"161": "Debugging: Removing the needles from the haystack.",
+	"162": "You are the CSS to my HTML",
+	"163": "An optimist says: “the glass is half full.”<br>A pessimist says: “the glass is half empty.”<br>A programmer says: “the glass is twice as large as necessary.",
+	"164": "CSS developers have the biggest ego, they think they're so !important",
+	"165": {
 		"q": "Hamlet: To be - or not to be...",
 		"a": "Programmer: True !"
-  },
-  "166": "The Professor says \"Welcome to English 101\".The student panicks.\"What's wrong?\" asks the Professor.\"I missed the first 4 English classes\".",
-  "167": {
+	},
+	"166": "The Professor says \"Welcome to English 101\".The student panicks.\"What's wrong?\" asks the Professor.\"I missed the first 4 English classes\".",
+	"167": {
 		"q": "What do cats and programmers have in common?",
 		"a": "When either one is unusually happy and excited, an appropriate question would be, \"did you find a bug\".",
 		"form": "qa"
 	},
 	"168": "Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says \"Do you get the reference?\" But Java didn't.",
-	"169":"To understand recursion. You must first understand recursion.",
+	"169": "To understand recursion. You must first understand recursion.",
 	"170": "Two bytes meet. The first byte asks, \"Are you ill?\"The second byte replies, \"No, just feeling a bit off.\" ",
 	"171": "I put so much more effort into naming my first Wi-Fi than my first child.",
-  "172": {
-    "q": "Why was the developer unable to find his room?",
-    "a": "His room card said 404",
-    "form": "qa"
-  },
-  "173": {
-    "q": "How do you tell an introverted computer scientist from an extroverted scientist?",
-    "a": "An extroverted computer scientist looks at your shoes when he talks to you.",
-    "form": "qa"
-  },
-  "174": {
-    "q": "How do you comfort a JS bug?",
-    "a": "You console it",
-    "form": "qa"
-  },
-  "175": "When an Apple employees dies, does their life HTML5 in front of their eyes?",
-  "176": {
-    "q": "What's 0.1+0.2?",
-    "a": "It's 0.30000000000000004",
-    "form": "qa"
-  },
-  "177": {
-    "q": "Why do programmers prefer dark mode?",
-    "a": "Because light attracts bugs.",
-    "form": "qa"
-  },
-  "178": {
-    "q": "Did you know?",
-    "a": "Spiders are the only web developers in the world that like finding bugs",
-    "form": "qa"
-  },
-  "179": {
-	  "q": "Don't add a programming language to your skills list after watching a 15-minute video on it.",
-	  "a": "Yes wait until you've written hello world",
-	  "form": "qa"
-  },
+	"172": {
+		"q": "Why was the developer unable to find his room?",
+		"a": "His room card said 404",
+		"form": "qa"
+	},
+	"173": {
+		"q": "How do you tell an introverted computer scientist from an extroverted scientist?",
+		"a": "An extroverted computer scientist looks at your shoes when he talks to you.",
+		"form": "qa"
+	},
+	"174": {
+		"q": "How do you comfort a JS bug?",
+		"a": "You console it",
+		"form": "qa"
+	},
+	"175": "When an Apple employees dies, does their life HTML5 in front of their eyes?",
+	"176": {
+		"q": "What's 0.1+0.2?",
+		"a": "It's 0.30000000000000004",
+		"form": "qa"
+	},
+	"177": {
+		"q": "Why do programmers prefer dark mode?",
+		"a": "Because light attracts bugs.",
+		"form": "qa"
+	},
+	"178": {
+		"q": "Did you know?",
+		"a": "Spiders are the only web developers in the world that like finding bugs",
+		"form": "qa"
+	},
+	"179": {
+		"q": "Don't add a programming language to your skills list after watching a 15-minute video on it.",
+		"a": "Yes wait until you've written hello world",
+		"form": "qa"
+	},
 
-  "180": "A data Scientist goes to a bar and sees two tables. Then he says: Hey bro... Can I join you?",
+	"180": "A data Scientist goes to a bar and sees two tables. Then he says: Hey bro... Can I join you?",
 
-  "181": {
-	"q": "Why do python developers wear glasses?",
-	"a": "Because they can't C",
-	"form": "qa"
-  },
-  "182": {
-	"q": "Why does the Docker container fail?",
-	"a": "So that, Kubernetes can start it again",
-	"form": "qa"
-  }
+	"181": {
+		"q": "Why do python developers wear glasses?",
+		"a": "Because they can't C",
+		"form": "qa"
+	},
+	"182": {
+		"q": "Why does the Docker container fail?",
+		"a": "So that, Kubernetes can start it again",
+		"form": "qa"
+	},
+	"183": "Give a man a program, frustate him for a day. Teach a man to program, frustrate him for a lifetime."
 }
