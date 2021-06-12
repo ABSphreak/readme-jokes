@@ -44,45 +44,6 @@ Embed one of these in your README:
 <summary>Click to available themes.</summary>
 
 <br/>
-
- <!-- THEMES 
-- `default`
-- `gradientBlue`
-- `solidBlue`
-- `halloween`
-- `watermelon`
-- `pinkish`
-- `daySky`
-- `radical`
-- `merko`
-- `gruvbox`
-- `tokyonight`
-- `onedark`
-- `cobalt`
-- `synthwave`
-- `dracula`
-- `prussian`
-- `monokai`
-- `vue`
-- `vue-dark`
-- `nightowl`
-- `buefy`
-- `blue-green`
-- `algolia`
-- `darcula`
-- `bear`
-- `solarized-dark`
-- `solarized-light`
-- `gotham`
-- `material-palenight`
-- `graywhite`
-- `ayu-mirage`
-- `calm`
-- `flag-india`
-- `omni`
-- `react`
-- `blueberry`
-- `random (Will randomly select one of the above themes)` -->
  
 <table>
  <tr>
@@ -113,6 +74,54 @@ Embed one of these in your README:
    <td>pinkish</td>
    <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=pinkish" alt="Jokes Card" /></td>
  </tr> 
+ <tr>
+   <td>daySky</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=daySky" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>radical</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=radical" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>merko</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=merko" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>gruvbox</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=gruvbox" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>tokyonight</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=tokyonight" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>onedark</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=onedark" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>cobalt</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=cobalt" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>synthwave</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=synthwave" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>dracula</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=dracula" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>prussian</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=prussian" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>monokai</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=monokai" alt="Jokes Card" /></td>
+ </tr>
+  <tr>
+   <td>vue</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=vue" alt="Jokes Card" /></td>
+ </tr>
  <table>
 
 
