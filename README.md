@@ -45,6 +45,7 @@ Embed one of these in your README:
 
 <br/>
 
+ <!-- THEMES 
 - `default`
 - `gradientBlue`
 - `solidBlue`
@@ -81,7 +82,39 @@ Embed one of these in your README:
 - `omni`
 - `react`
 - `blueberry`
-- `random (Will randomly select one of the above themes)`
+- `random (Will randomly select one of the above themes)` -->
+ 
+<table>
+ <tr>
+  <th>Theme</th>
+  <th>Preview</th>
+ <tr>
+   
+ <tr>
+   <td>default</td>
+   <td><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></td>
+ <tr>
+ <tr>
+   <td>gradientBlue</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=gradientBlue" alt="Jokes Card" /></td>
+ <tr>
+ <tr>
+   <td>solidBlue</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue" alt="Jokes Card" /></td>
+ <tr>
+ <tr>
+   <td></td>
+   <td></td>
+ <tr>
+ <tr>
+   <td></td>
+   <td></td>
+ <tr>
+ <tr>
+   <td></td>
+   <td></td>
+ <tr> <!-- 1/6 -->
+ <table>
 
 
 </details>
