@@ -88,32 +88,31 @@ Embed one of these in your README:
  <tr>
   <th>Theme</th>
   <th>Preview</th>
- <tr>
-   
+ </tr>
  <tr>
    <td>default</td>
    <td><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></td>
- <tr>
+ </tr>
  <tr>
    <td>gradientBlue</td>
    <td><img src="https://readme-jokes.vercel.app/api?theme=gradientBlue" alt="Jokes Card" /></td>
- <tr>
+ </tr>
  <tr>
    <td>solidBlue</td>
    <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue" alt="Jokes Card" /></td>
+ </tr>
  <tr>
+   <td>halloween</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=halloween" alt="Jokes Card" /></td>
+ </tr>
  <tr>
-   <td></td>
-   <td></td>
+   <td>watermelon</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=watermelon" alt="Jokes Card" /></td>
+ </tr>
  <tr>
- <tr>
-   <td></td>
-   <td></td>
- <tr>
- <tr>
-   <td></td>
-   <td></td>
- <tr> <!-- 1/6 -->
+   <td>pinkish</td>
+   <td><img src="https://readme-jokes.vercel.app/api?theme=solidBlue?theme=pinkish" alt="Jokes Card" /></td>
+ </tr> 
  <table>
 
 
