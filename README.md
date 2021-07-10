@@ -41,7 +41,7 @@ Embed one of these in your README:
 - `theme` → **Theme (Must be one of the following)**
 
 <details>
-<summary>Click to available themes.</summary>
+<summary>Click to see all available themes.</summary>
 
 <br/>
  
