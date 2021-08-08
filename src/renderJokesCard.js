@@ -1,20 +1,19 @@
+const width = '100%';
+const height = '100%';
+
 // Question-Answer type card
-const qnaCard = (
-  qColor,
-  aColor,
-  bg,
-  borderColor,
-  codeColor,
-  question,
-  answer
-) => {
-  const card = `
+const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder) => {
+	let border = '2px solid ' + borderColor;
+	if (hideBorder !== undefined) {
+		border = '2px solid transparent';
+	}
+	const card = `
   <svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
+    <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
           .container {
-            border: 2px solid ${borderColor};
+            border: ${border};
             border-radius: 10px;
             background: ${bg};
           }
@@ -42,18 +41,22 @@ const qnaCard = (
       </div>
     </foreignObject>
   </svg>`;
-  return card;
+	return card;
 };
 
 // Quotation type card
-const quoteCard = (textColor, bg, borderColor, codeColor, qoute) => {
-  const card = `
+const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => {
+	let border = '2px solid ' + borderColor;
+	if (hideBorder !== undefined) {
+		border = '2px solid transparent';
+	}
+	const card = `
   <svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
+    <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
           .container {
-            border: 2px solid ${borderColor};
+            border: ${border};
             border-radius: 10px;
             background: ${bg};
           }
@@ -78,10 +81,10 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute) => {
     </foreignObject>
   </svg>
   `;
-  return card;
+	return card;
 };
 
 module.exports = {
-  qnaCard,
-  quoteCard,
+	qnaCard,
+	quoteCard,
 };
