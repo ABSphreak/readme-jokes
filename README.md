@@ -246,7 +246,8 @@ Embed one of these in your README:
 
 _Note: Use URL-encoded `#` for color values i.e. `%23`<br/>_
 _eg: `#FFF` will be `%23FFF`<br/>_
-_Note: You can also use the URL parameters to customize the themes._
+_Note: You can also use the URL parameters to customize the themes.<br/>_
+_URL eg: https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0_
 
 ### Demo
 
