@@ -782,4 +782,29 @@
 		"a": "Nerdic",
 		"form": "qa"
 	},
+	"186": {
+		"q": "What did the hamburger name his daughter?",
+		"a": "Patty",
+		"form": "qa"
+	},
+	"187": {
+		"q": "What did the blanket say to the bed?",
+		"a": "Don't worry, I've got you covered.",
+		"form": "qa"
+	},
+	"188": {
+		"q": "What did the baby corn say to the mama corn?",
+		"a": "Where is popcorn?",
+		"form": "qa"
+	},
+	"189": {
+		"q": "Why did the banker quit his job?",
+		"a": "He lost interest!",
+		"form": "qa"
+	},
+	"190": {
+		"q": "Why did the picture go to jail?",
+		"a": "Because it was framed.",
+		"form": "qa"
+	},
 }
