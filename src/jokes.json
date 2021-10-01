@@ -767,5 +767,19 @@
 		"a": "So that, Kubernetes can start it again",
 		"form": "qa"
 	},
-	"183": "Give a man a program, frustate him for a day. Teach a man to program, frustrate him for a lifetime."
+	"183": {
+		"q": "I.. CAN'T GET.. IT.. OFF!!",
+		"a": "DUDE, THAT'S BECAUSE YOUR CAPS LOCK IS ON",
+		"form": "qa"
+	},
+	"184": {
+		"q": "What's the object-oriented way to become wealthy?",
+		"a": "Inheritance",
+		"form": "qa"
+	},
+	"185": {
+		"q": "What do you call a programmer from Finland?",
+		"a": "Nerdic",
+		"form": "qa"
+	},
 }
