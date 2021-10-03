@@ -1,8 +1,5 @@
-function pickRandomJoke(jokes) {}
 // For giving a median value of cache age. Useful if the cache time is set by the user using query parameters
-exports.clampValue = (number, min, max) => {
-  return Math.max(min, Math.min(number, max));
-};
+exports.clampValue = (number, min, max) => Math.max(min, Math.min(number, max));
 // Pre defined cache age values (in seconds)
 exports.CONSTANTS = {
   TEN_SECONDS: 10,
@@ -17,5 +14,5 @@ exports.CONSTANTS = {
 exports.getRandomArrayElement = (arr) => {
   min = 0;
   max = arr.length;
-  return arr[Math.floor(Math.random() * (max - min) + min)]; //The maximum is inclusive and the minimum is inclusive 
-}
+  return arr[Math.floor(Math.random() * (max - min) + min)]; // The maximum is inclusive and the minimum is inclusive
+};

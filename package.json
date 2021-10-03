@@ -4,7 +4,8 @@
   "description": "README Jokes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ABSphreak/readme-jokes/issues"
   },
-  "homepage": "https://github.com/ABSphreak/readme-jokes#readme"
+  "homepage": "https://github.com/ABSphreak/readme-jokes#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
 }

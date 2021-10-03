@@ -781,10 +781,5 @@
 		"q": "What do you call a programmer from Finland?",
 		"a": "Nerdic",
 		"form": "qa"
-	},
-	"186": {
-		"q": "What is a programmer's favourite hangout place?",
-		"a": "Foo Bar",
-		"form": "qa"
 	}
 }
