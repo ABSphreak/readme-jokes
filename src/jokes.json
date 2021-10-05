@@ -781,5 +781,10 @@
 		"q": "What do you call a programmer from Finland?",
 		"a": "Nerdic",
 		"form": "qa"
+	},
+	"186": {
+		"q": "What do exploding pandas eat?",
+		"a": "BamBOOM!",
+		"form": "qa"
 	}
 }
