@@ -786,5 +786,10 @@
 		"q": "Want to know the biggest lie in the universe?",
 		"a": "I have read and agree to the Terms & Conditions",
 		"form": "qa"
+	},
+	"187": {
+		"q": "What is the biggest lie you have heard from a programmer?",
+		"a": "It should work now.",
+		"form": "qa"
 	}
 }
