@@ -791,5 +791,6 @@
 		"q": "What is the biggest lie you have heard from a programmer?",
 		"a": "It should work now.",
 		"form": "qa"
-	}
+	},
+	"188": "If the box says: \"This software requires Windows XP or better\". Does that mean it will run on Linux?"
 }
