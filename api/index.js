@@ -8,6 +8,7 @@ const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
   const index = Math.floor(Math.random() * Object.keys(jokes).length);
+  //const index = 168
   let renderJoke = '';
 
   let {
@@ -41,12 +42,21 @@ module.exports = async (req, res) => {
       hideBorder,
     );
   } else {
+    let joke = jokes[index]; 
+    
+    if (joke.includes("<br")) joke = jokes[index]
+    else {
+      joke = jokes[index].split('?"');
+      if (joke.length===2) joke = joke[0] + '?"' + "<br/><br/>" + joke[1];
+      else joke = jokes[index];
+    }
+
     renderJoke = quoteCard(
       textColor || '#ffca3a',
       bgColor || '#242423',
       borderColor || '#8ac926',
       codeColor || '#f72585',
-      jokes[index],
+      joke,
       hideBorder,
     );
   }
