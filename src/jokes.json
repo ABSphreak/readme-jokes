@@ -792,5 +792,10 @@
 		"a": "It should work now.",
 		"form": "qa"
 	},
-	"188": "If the box says: \"This software requires Windows XP or better\". Does that mean it will run on Linux?"
+	"188": "If the box says: \"This software requires Windows XP or better\". Does that mean it will run on Linux?",
+	"189": {
+		"q": "Why did the functional programmer get thrown out of school?",
+		"a": "Because he refused to take classes"
+	}
 }
+
