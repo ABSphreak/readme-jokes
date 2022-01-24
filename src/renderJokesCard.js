@@ -7,15 +7,42 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
   if (hideBorder !== undefined) {
     border = '2px solid transparent';
   }
+  // ${console.log(window.innerHeight)}
   const card = `
-  <svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="" onload="myfunc()" id="qna" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <script>
+        const myfunc = () => {
+          let text = document.getElementsByClassName("text");
+          let qnaC = document.getElementById("qna");
+          if(window.screen.availWidth > 425){
+            text[0].classList.add("desktop");
+            qnaC.classList.add("qwidthDesktop");
+          }
+          else{
+            text[0].classList.add("mobile");
+            qnaC.classList.add("qwidthMobile");
+          }
+        }
+  </script>
     <foreignObject width="${width}" height="${height}">
-      <div xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
         <style>
+          .qwidthDesktop{
+            width: 500px;
+          }
+          .qwidthMobile{
+            width: 80%;
+          }
           .container {
             border: ${border};
             border-radius: 10px;
             background: ${bg};
+          }
+          .desktop{
+            font-size: 18px;
+          }
+          .mobile{
+            font-size: 45px;
           }
           .text{
             padding: 0.5rem;
@@ -51,14 +78,41 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
     border = '2px solid transparent';
   }
   const card = `
-  <svg width="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="" onload="myfunc()" id="quoteC" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <script>
+        const myfunc = () => {
+          let text = document.getElementsByClassName("text");
+          let quoteC = document.getElementById("quoteC");
+          if(window.screen.availWidth > 425){
+            text[0].classList.add("desktop");
+            quoteC.classList.add("qwidthDesktop");
+          }
+          else{
+            text[0].classList.add("mobile");
+            quoteC.classList.add("qwidthMobile");
+          }
+          console.log(quoteC.classList, text.classList);
+        }
+  </script>
     <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
+          .qwidthDesktop{
+            width: 500px;
+          }
+          .qwidthMobile{
+            width: 80%;
+          }
           .container {
             border: ${border};
             border-radius: 10px;
             background: ${bg};
+          }
+          .desktop{
+            font-size: 18px;
+          }
+          .mobile{
+            font-size: 45px;
           }
           .text{
             padding: 0.5rem;
