@@ -800,5 +800,9 @@
 
 	"190": "If it weren't for C, we'd all be programming in BASI and OBOL",
 
-	"191": "Programming is like sex: One mistake and you have to support it for the rest of your life."
+	"191": "Programming is like sex: One mistake and you have to support it for the rest of your life.",
+	
+	"192": {
+		"q": "Why does Pennywise make such a horrible SQL database architect?",
+		"a": "He tries to cast all the data to float."
 }
