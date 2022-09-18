@@ -2,14 +2,14 @@ const width = '100%';
 const height = '100%';
 
 // Question-Answer type card
-const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder) => {
+const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder, title, titleColor) => {
   let border = `2px solid ${borderColor}`;
   if (hideBorder !== undefined) {
     border = '2px solid transparent';
   }
   // ${console.log(window.innerHeight)}
   const card = `
-  <svg class="" onload="myfunc()" id="qna" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="" width="350" height="190" onload="myfunc()" id="qna" fill="none" xmlns="http://www.w3.org/2000/svg">
   <script>
         const myfunc = () => {
           let text = document.getElementsByClassName("text");
@@ -25,7 +25,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
         }
   </script>
     <foreignObject width="${width}" height="${height}">
-      <div xmlns="http://www.w3.org/1999/xhtml"> 
+      <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
           .qwidthDesktop{
             width: 500px;
@@ -34,6 +34,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
             width: 80%;
           }
           .container {
+            margin: 0 0 0 1rem;
             border: ${border};
             border-radius: 10px;
             background: ${bg};
@@ -45,7 +46,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
             font-size: 45px;
           }
           .text{
-            padding: 0.5rem;
+            padding: 0 0.5rem 0.5rem 0.5rem;
             font-family: Arial, Helvetica, sans-serif;
           }
           .question {
@@ -54,12 +55,18 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
           .answer {
             color: ${aColor};
           }
+          .title {
+            padding: 0 0 0 0.5rem;
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            color: ${titleColor};
+          }
           code {
             font-size: 1.2rem;
             color: ${codeColor};
           }
         </style>
         <div class="container">
+          <p class="title">${title ?? ''}</p>
           <div class="text">
             <p class="question"><b>Q.</b> ${question}</p>
             <p class="answer"><b>A.</b> ${answer} </p>
@@ -72,13 +79,13 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
 };
 
 // Quotation type card
-const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => {
+const quoteCard = (textColor, bg, borderColor, codeColor, quote, hideBorder, title) => {
   let border = `2px solid ${borderColor}`;
   if (hideBorder !== undefined) {
     border = '2px solid transparent';
   }
   const card = `
-  <svg class="" onload="myfunc()" id="quoteC" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="" width="350" height="190" onload="myfunc()" id="quoteC" fill="none" xmlns="http://www.w3.org/2000/svg">
   <script>
         const myfunc = () => {
           let text = document.getElementsByClassName("text");
@@ -104,6 +111,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
             width: 80%;
           }
           .container {
+            margin: 0 0 0 1rem;
             border: ${border};
             border-radius: 10px;
             background: ${bg};
@@ -121,14 +129,20 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
           .quote {
             color: ${textColor};
           }
+          .title {
+            padding: 0 0 0 0.5rem;
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            color: ${titleColor};
+          }
           code {
             font-size: 1.2rem;
             color: ${codeColor};
           }
         </style>
         <div class="container">
+          <p class="title">${title ?? ''}</p>
           <div class="text">
-            <p class="quote">${qoute}</p>
+            <p class="quote">${quote}</p>
           </div>
         </div>
       </div>

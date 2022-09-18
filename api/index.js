@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
   let renderJoke = '';
 
   let {
-    borderColor, qColor, aColor, textColor, bgColor, codeColor, quoteColor, theme, hideBorder,
+    borderColor, qColor, aColor, textColor, bgColor, codeColor, quoteColor, theme, hideBorder, title, titleColor
   } = req.query;
 
   theme = theme ? theme.toLowerCase() : theme;
@@ -40,6 +40,8 @@ module.exports = async (req, res) => {
       question,
       answer,
       hideBorder,
+      title,
+      titleColor || '#58A6FF',
     );
   } else {
     let joke = jokes[index]; 
@@ -58,6 +60,8 @@ module.exports = async (req, res) => {
       codeColor || '#f72585',
       joke,
       hideBorder,
+      title,
+      titleColor || '#58A6FF',
     );
   }
 
