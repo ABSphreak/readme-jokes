@@ -2,7 +2,7 @@ const width = '100%';
 const height = '100%';
 
 // Question-Answer type card
-const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder, title) => {
+const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder, title, titleColor) => {
   let border = `2px solid ${borderColor}`;
   if (hideBorder !== undefined) {
     border = '2px solid transparent';
@@ -58,7 +58,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
           .title {
             padding: 0 0 0 0.5rem;
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            color: #58A6FF;
+            color: ${titleColor};
           }
           code {
             font-size: 1.2rem;
@@ -66,7 +66,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
           }
         </style>
         <div class="container">
-          ${title && `<p class="title">${title}</p>`}
+          <p class="title">${title ?? ''}</p>
           <div class="text">
             <p class="question"><b>Q.</b> ${question}</p>
             <p class="answer"><b>A.</b> ${answer} </p>
@@ -132,7 +132,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, quote, hideBorder, tit
           .title {
             padding: 0 0 0 0.5rem;
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            color: #58A6FF;
+            color: ${titleColor};
           }
           code {
             font-size: 1.2rem;
@@ -140,7 +140,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, quote, hideBorder, tit
           }
         </style>
         <div class="container">
-          ${title && `<p class="title">${title}</p>`}
+          <p class="title">${title ?? ''}</p>
           <div class="text">
             <p class="quote">${quote}</p>
           </div>
