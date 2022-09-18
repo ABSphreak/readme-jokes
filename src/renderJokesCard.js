@@ -66,7 +66,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
           }
         </style>
         <div class="container">
-          <p class="title">${title}</p>
+          ${title && `<p class="title">${title}</p>`}
           <div class="text">
             <p class="question"><b>Q.</b> ${question}</p>
             <p class="answer"><b>A.</b> ${answer} </p>
@@ -140,7 +140,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, quote, hideBorder, tit
           }
         </style>
         <div class="container">
-          <p class="title">${title}</p>
+          ${title && `<p class="title">${title}</p>`}
           <div class="text">
             <p class="quote">${quote}</p>
           </div>
