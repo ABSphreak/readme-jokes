@@ -5,7 +5,6 @@
  old gif:
  https://media.giphy.com/media/l41lISBVXb9gRT32w/giphy.gif
  ---->
-
  <p align="center"><img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Production?label=Production&style=flat-square"/>
  <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Preview?label=Testing&style=flat-square"/>
  <a href="https://github.com/ABSphreak/readme-jokes/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/ABSphreak/readme-jokes?label=Issues&style=flat-square"/></a></p>
@@ -17,7 +16,7 @@
   <a href="https://github.com/ABSphreak/readme-jokes/issues/new">Report Bugs</a>
 </div>
 
-### Usage
+## 🛠️ Usage
 
 Endpoint URL:<a href="https://readme-jokes.vercel.app/api">`https://readme-jokes.vercel.app/api`</a>
 
@@ -36,7 +35,7 @@ Embed one of these in your README:
 <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 ```
 
-### Customization Guide
+## 🖌️ Customization Guide
 
 Customize using `?` after `/api` in the https link, example here with no borders using the `hideBorder` parameter.
 <br/>
@@ -69,7 +68,7 @@ This example will produce a jokes card with the next features:
 <img alt="Jokes Card" src="https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51">
 </div>
 
-#### Parameters Available
+### ⚙️ Parameters Available
 
 - **`bgColor`** → Background Color  
    Example: <a href="https://readme-jokes.vercel.app/api?&bgColor=%23944bcc">
@@ -111,7 +110,7 @@ This example will produce a jokes card with the next features:
   (applies the `gradientBlue` theme)
 
 <details>
-<summary><b>CLICK HERE TO OPEN THE THEMES LIST</b></summary>
+<summary><b> ☑️ CLICK HERE TO OPEN THE THEMES LIST</b></summary>
 
 <br/>
 
@@ -316,7 +315,7 @@ _eg: `#FFF` will be `%23FFF`<br/>_
 _Note: You can also use the URL parameters to customize the themes.<br/>_
 _URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0>_
 
-### Demo
+## 💻 Demo
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
@@ -324,11 +323,11 @@ _URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
 
-### Known Issues
+## ⚠️ Known Issues
 
 - Not Mobile responsive. [#3](https://github.com/ABSphreak/readme-jokes/issues/3)
 
-### Contributions
+## 📝 Contributions
 
 - Fork this repository.
 - Deploy on your own [Vercel](https://vercel.com/) instance.
@@ -336,7 +335,7 @@ _URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d
 - Open a [PR](https://github.com/ABSphreak/readme-jokes/pulls), if you solve something.
 - Got some idea? Just open an [issue](https://github.com/ABSphreak/readme-jokes/issues/new).
 
-### References
+## 📖 References
 
 - [Jokes](https://github.com/ABSphreak/readme-jokes/blob/master/src/jokes.json) API has been generated from [wesbos/dad-jokes](https://github.com/wesbos/dad-jokes)
 - Project is inspired by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
