@@ -64,7 +64,7 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
 - **`borderColor`** → Border Color  
   Example: <a href="https://readme-jokes.vercel.app/api?&borderColor=%23944bcc">
   `https://readme-jokes.vercel.app/api?&borderColor=%23944bcc`</a>  
-  (makes the color of the border purple) 
+  (makes the color of the border purple)
 
 - **`qColor`** → Question Color  
   Example: <a href="https://readme-jokes.vercel.app/api?&qColor=%23944bcc">
@@ -76,7 +76,7 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
   `https://readme-jokes.vercel.app/api?&aColor=%23944bcc`</a>  
   (makes the color of the answers purple)
   
-- **`textColor`** → Normal text Color (does not apply to answers nor questions)   
+- **`textColor`** → Normal text Color (does not apply to answers nor questions)
   Example: <a href="https://readme-jokes.vercel.app/api?&textColor=%23944bcc">
   `https://readme-jokes.vercel.app/api?&textColor=%23944bcc`</a>  
   (makes the color of the normal text purple)
@@ -89,15 +89,14 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
 - **`hideBorder`** → Mention as a value-less parameter to hide boder  
   Example: <a href="https://readme-jokes.vercel.app/api?hideBorder">
   `https://readme-jokes.vercel.app/api?hideBorder`</a>
-     
-  
-- **`theme`** → **Theme (Must be one of the following)**  
+
+- **`theme`** → Theme (Must be one from the themes list)  
   Example: <a href="https://readme-jokes.vercel.app/api?theme=gradientBlue">
   `https://readme-jokes.vercel.app/api?theme=gradientBlue`</a>  
   (applies the `gradientBlue` theme)
 
 <details>
-<summary>Click to see all available themes.</summary>
+<summary><b>CLICK HERE TO OPEN THE THEMES LIST</b></summary>
 
 <br/>
 
@@ -300,7 +299,7 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
 _Note: Use URL-encoded `#` for color values i.e. `%23`<br/>_
 _eg: `#FFF` will be `%23FFF`<br/>_
 _Note: You can also use the URL parameters to customize the themes.<br/>_
-_URL eg: https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0_
+_URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0>_
 
 ### Demo
 
