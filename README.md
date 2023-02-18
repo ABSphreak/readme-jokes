@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <a href="#demo">View Demo</a>
+  <a href="Demo">View Demo</a>
   ●
   <a href="https://github.com/ABSphreak/readme-jokes/issues/new">Report Bugs</a>
 </div>
@@ -315,6 +315,7 @@ _eg: `#FFF` will be `%23FFF`<br/>_
 _Note: You can also use the URL parameters to customize the themes.<br/>_
 _URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0>_
 
+<a id="Demo"></a>
 ## 💻 Demo
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
