@@ -91,7 +91,7 @@ This example will produce a jokes card with the next features:
   `https://readme-jokes.vercel.app/api?&aColor=%23944bcc`</a>  
   (makes the color of the answers purple)
   
-- **`textColor`** → Normal text Color (does not apply to answers nor questions)
+- **`textColor`** → Normal text Color (does not apply to answers nor questions)  
   Example: <a href="https://readme-jokes.vercel.app/api?&textColor=%23944bcc">
   `https://readme-jokes.vercel.app/api?&textColor=%23944bcc`</a>  
   (makes the color of the normal text purple)
