@@ -56,14 +56,44 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
 
 #### Parameters Available
 
-- `bgColor` → **Background Color**
-- `borderColor` → **Border Color**
-- `qColor` → **Question Color**
-- `aColor` → **Answer Color**
-- `textColor` → **Normal text Color**
-- `codeColor` → **Code Color**
-- `hideBorder` → **Mention as a value-less parameter to hide boder**
-- `theme` → **Theme (Must be one of the following)**
+- **`bgColor`** → Background Color  
+   Example: <a href="https://readme-jokes.vercel.app/api?&bgColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&bgColor=%23944bcc`</a>  
+  (makes the color of the background purple)
+
+- **`borderColor`** → Border Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?&borderColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&borderColor=%23944bcc`</a>  
+  (makes the color of the border purple) 
+
+- **`qColor`** → Question Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?&qColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&qColor=%23944bcc`</a>  
+  (makes the color of the questions purple)
+  
+- **`aColor`** → Answer Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?&aColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&aColor=%23944bcc`</a>  
+  (makes the color of the answers purple)
+  
+- **`textColor`** → Normal text Color (does not apply to answers nor questions)   
+  Example: <a href="https://readme-jokes.vercel.app/api?&textColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&textColor=%23944bcc`</a>  
+  (makes the color of the normal text purple)
+  
+- **`codeColor`** → Code Color  
+  Example: <a href="">
+  ``</a>  
+  
+- **`hideBorder`** → Mention as a value-less parameter to hide boder  
+  Example: <a href="https://readme-jokes.vercel.app/api?hideBorder">
+  `https://readme-jokes.vercel.app/api?hideBorder`</a>
+     
+  
+- **`theme`** → **Theme (Must be one of the following)**  
+  Example: <a href="https://readme-jokes.vercel.app/api?theme=gradientBlue">
+  `https://readme-jokes.vercel.app/api?theme=gradientBlue`</a>  
+  (applies the `gradientBlue` theme)
 
 <details>
 <summary>Click to see all available themes.</summary>
