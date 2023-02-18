@@ -1,6 +1,10 @@
 <div align="center">
  <h1 align="center">README Jokes</h1>
  <img src="readme-jokes-cover.gif" width=80% alt="jokes GIF">
+ <!---
+ old gif:
+ https://media.giphy.com/media/l41lISBVXb9gRT32w/giphy.gif
+ ---->
  <p align="center"><i>Random programming jokes on your README.</i></p>
  <p align="center"><img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Production?label=Production&style=flat-square"/>
  <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Preview?label=Testing&style=flat-square"/>
@@ -34,25 +38,36 @@ Embed one of these in your README:
 
 ### Customization Guide
 
-Customize using `?` after /api in the https link, example here with no borders using the `hideBorder` parameter.
+Customize using `?` after `/api` in the https link, example here with no borders using the `hideBorder` parameter.
 <br/>
 
-Markdown method:
+Markdown method:  
 `![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder)`
 <br/>
 
-Image method:
+Image method:  
 `<img src="https://readme-jokes.vercel.app/api?hideBorder" alt="Jokes Card" />`
 <br/>
 
 Both methods will produce the following jokes card without border:
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder)
+<div align="left">
+<img alt="Jokes Card" src="https://readme-jokes.vercel.app/api?hideBorder">
+</div>
 <br/>
-To use multiple parameters use '`&`' after the first parameter, e.g. `?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51`
 
-will produce a jokes card without border, with cobalt theme, answer color #944bcc and question color #bbdb51 like so:
+To use multiple parameters use `&` after the first parameter.  
+e.g. `?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51`
+
+This example will produce a jokes card with the next features:
+- With cobalt theme
+- Without border
+- Answer color #944bcc
+- Question color #bbdb51
 <br/>
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51)
+
+<div>
+<img alt="Jokes Card" src="https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51">
+</div>
 
 #### Parameters Available
 
