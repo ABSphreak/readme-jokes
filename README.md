@@ -1,6 +1,6 @@
 <div align="center">
  <h1 align="center">README Jokes</h1>
- <img src="readme-jokes-cover.gif" width="300" alt="jokes GIF">
+ <img src="readme-jokes-cover.gif" width=80% alt="jokes GIF">
  <p align="center"><i>Random programming jokes on your README.</i></p>
  <p align="center"><img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Production?label=Production&style=flat-square"/>
  <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/ABSphreak/readme-jokes/Preview?label=Testing&style=flat-square"/>
@@ -15,7 +15,7 @@
 
 ### Usage
 
-Endpoint URL: `https://readme-jokes.vercel.app/api`
+Endpoint URL:<a href="https://readme-jokes.vercel.app/api">`https://readme-jokes.vercel.app/api`</a>
 
 Embed one of these in your README:
 
