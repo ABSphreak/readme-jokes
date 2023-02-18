@@ -81,9 +81,10 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
   `https://readme-jokes.vercel.app/api?&textColor=%23944bcc`</a>  
   (makes the color of the normal text purple)
   
-- **`codeColor`** → Code Color  
-  Example: <a href="">
-  ``</a>  
+- **`codeColor`** → Code text Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?&codeColor=%23944bcc">
+  `https://readme-jokes.vercel.app/api?&codeColor=%23944bcc`</a>  
+  (makes the color of the code text purple)
   
 - **`hideBorder`** → Mention as a value-less parameter to hide boder  
   Example: <a href="https://readme-jokes.vercel.app/api?hideBorder">
