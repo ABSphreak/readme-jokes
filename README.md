@@ -11,14 +11,22 @@
 </div>
 
 <div align="center">
-  <a href="Demo">View Demo</a>
+  <a href="#💻 Demo">View Demo</a>
   ●
   <a href="https://github.com/ABSphreak/readme-jokes/issues/new">Report Bugs</a>
 </div>
 
+## 💻 Demo
+
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
+![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0)
+
+![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
+
 ## 🛠️ Usage
 
-Endpoint URL:<a href="https://readme-jokes.vercel.app/api">`https://readme-jokes.vercel.app/api`</a>
+Endpoint URL:<a href="https://readme-jokes.vercel.app/api"> `https://readme-jokes.vercel.app/api`</a>
 
 Embed one of these in your README:
 
@@ -32,6 +40,7 @@ Embed one of these in your README:
 
 ```html
 <!-- HTML -->
+
 <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 ```
 
@@ -55,13 +64,15 @@ Both methods will produce the following jokes card without border:
 <br/>
 
 To use multiple parameters use `&` after the first parameter.  
-e.g. `?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51`
+For example:<a href="https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51">  
+`https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51`
+</a>
 
-This example will produce a jokes card with the next features:
-- With cobalt theme
+This will generate a jokes card with the next features:
 - Without border
-- Answer color #944bcc
-- Question color #bbdb51
+- `cobalt` theme
+- Answer color `#944bcc` ( `%23944bcc` )
+- Question color `#bbdb51` ( `%23bbdb51` )
 <br/>
 
 <div>
@@ -70,35 +81,40 @@ This example will produce a jokes card with the next features:
 
 ### ⚙️ Parameters Available
 
+**NOTE:** You need to use URL-encoded `#` for color values (`%23`)  
+
+❌`#FFFF00` → ✔️`%23FFFF00`
+
 - **`bgColor`** → Background Color  
-   Example: <a href="https://readme-jokes.vercel.app/api?&bgColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&bgColor=%23944bcc`</a>  
-  (makes the color of the background purple)
+   Example: <a href="https://readme-jokes.vercel.app/api?bgColor=%23ff00ff">
+  `https://readme-jokes.vercel.app/api?bgColor=%23ff00ff`</a>  
+  (sets the color of the background to #ff00ff)
 
 - **`borderColor`** → Border Color  
-  Example: <a href="https://readme-jokes.vercel.app/api?&borderColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&borderColor=%23944bcc`</a>  
-  (makes the color of the border purple)
+  Example: <a href="https://readme-jokes.vercel.app/api?borderColor=%23ff2200">
+  `https://readme-jokes.vercel.app/api?borderColor=%23ff2200`</a>  
+  (sets the color of the border to #ff2200)
 
-- **`qColor`** → Question Color  
-  Example: <a href="https://readme-jokes.vercel.app/api?&qColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&qColor=%23944bcc`</a>  
-  (makes the color of the questions purple)
+- **`qColor`** → Question Text Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?qColor=%23949494">
+  `https://readme-jokes.vercel.app/api?qColor=%23949494`</a>  
+  (sets the color of the question text to #949494)
   
-- **`aColor`** → Answer Color  
-  Example: <a href="https://readme-jokes.vercel.app/api?&aColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&aColor=%23944bcc`</a>  
-  (makes the color of the answers purple)
+- **`aColor`** → Answer Text Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?aColor=%2300ff00">
+  `https://readme-jokes.vercel.app/api?aColor=%2300ff00`</a>  
+  (sets the color of the answer text to #00ff00)
   
-- **`textColor`** → Normal text Color (does not apply to answers nor questions)  
-  Example: <a href="https://readme-jokes.vercel.app/api?&textColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&textColor=%23944bcc`</a>  
-  (makes the color of the normal text purple)
+- **`textColor`** → Normal Text Color  
+(does not apply to answer nor question text)  
+  Example: <a href="https://readme-jokes.vercel.app/api?textColor=%23ff0a0a">
+  `https://readme-jokes.vercel.app/api?textColor=%23ff0a0a`</a>  
+  (sets the color of the normal text to #ff0a0a)
   
-- **`codeColor`** → Code text Color  
-  Example: <a href="https://readme-jokes.vercel.app/api?&codeColor=%23944bcc">
-  `https://readme-jokes.vercel.app/api?&codeColor=%23944bcc`</a>  
-  (makes the color of the code text purple)
+- **`codeColor`** → Code Text Color  
+  Example: <a href="https://readme-jokes.vercel.app/api?codeColor=%2300ffff">
+  `https://readme-jokes.vercel.app/api?codeColor=%2300ffff`</a>  
+  (sets the color of the code text to #00ffff)
   
 - **`hideBorder`** → Mention as a value-less parameter to hide boder  
   Example: <a href="https://readme-jokes.vercel.app/api?hideBorder">
@@ -110,7 +126,7 @@ This example will produce a jokes card with the next features:
   (applies the `gradientBlue` theme)
 
 <details>
-<summary><b> ☑️ CLICK HERE TO OPEN THE THEMES LIST</b></summary>
+<summary><b> 📝 CLICK HERE TO OPEN THE THEMES LIST</b></summary>
 
 <br/>
 
@@ -309,20 +325,6 @@ This example will produce a jokes card with the next features:
 </details>
 
 <br/>
-
-_Note: Use URL-encoded `#` for color values i.e. `%23`<br/>_
-_eg: `#FFF` will be `%23FFF`<br/>_
-_Note: You can also use the URL parameters to customize the themes.<br/>_
-_URL eg: <https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0>_
-
-<a id="Demo"></a>
-## 💻 Demo
-
-![Jokes Card](https://readme-jokes.vercel.app/api)
-
-![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0)
-
-![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
 
 ## ⚠️ Known Issues
 
