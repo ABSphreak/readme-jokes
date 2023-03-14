@@ -811,5 +811,9 @@
 	"194": {
 		"q": "What's a pirate's favorite programming language?",
 		"a": "ARRRR-uby."
-	}	
+	},
+	"195": {
+		"q": "Why did the programmer name his son Boolean?",
+		"a": "Because he wanted a true son."
+	}
 }
