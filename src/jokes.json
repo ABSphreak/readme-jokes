@@ -802,5 +802,18 @@
 
 	"191": "Programming is like sex: One mistake and you have to support it for the rest of your life.",
 	
-	"192": "Chuck Norris writes code, that optimizes itself."
+	"192": "Chuck Norris writes code, that optimizes itself.",
+	
+	"193": {
+		"q": "Why did the developer quit their job?",
+		"a": "Because they couldn't take the bit anymore."
+	},
+	"194": {
+		"q": "What's a pirate's favorite programming language?",
+		"a": "ARRRR-uby."
+	},
+	"195": {
+		"q": "Why did the programmer name his son Boolean?",
+		"a": "Because he wanted a true son."
+	}
 }
