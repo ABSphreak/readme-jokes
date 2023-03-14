@@ -807,5 +807,9 @@
 	"193": {
 		"q": "Why did the developer quit their job?",
 		"a": "Because they couldn't take the bit anymore."
+	},
+	"194": {
+		"q": "What's a pirate's favorite programming language?",
+		"a": "ARRRR-uby."
 	}	
 }
