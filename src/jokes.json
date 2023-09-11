@@ -803,4 +803,7 @@
 	"191": "Programming is like sex: One mistake and you have to support it for the rest of your life.",
 	
 	"192": "Chuck Norris writes code, that optimizes itself."
+	"193": {"q":"Why don't programmers like nature?",
+		"a": "It has too many bugs!",
+		"form": "qa"}
 }
