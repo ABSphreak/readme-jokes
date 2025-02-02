@@ -21,6 +21,7 @@ interface JokesData {
 const typedJokes = jokes as JokesData;
 
 export async function GET(request: NextRequest) {
+  console.log('API route hit', request.url);
   const index = Math.floor(Math.random() * Object.keys(typedJokes).length);
   let renderJoke = '';
 
