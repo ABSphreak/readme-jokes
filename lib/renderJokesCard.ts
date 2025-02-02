@@ -1,14 +1,25 @@
 const width = '100%';
 const height = '100%';
 
+interface QnaCardProps {
+	qColor: string;
+	aColor: string;
+	bg: string;
+	borderColor: string;
+	codeColor: string;
+	question: string;
+	answer: string;
+	hideBorder?: boolean;
+}
+
 // Question-Answer type card
-const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder) => {
-  let border = `2px solid ${borderColor}`;
-  if (hideBorder !== undefined) {
-    border = '2px solid transparent';
-  }
-  // ${console.log(window.innerHeight)}
-  const card = `
+export const qnaCard = ({ qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder }: QnaCardProps) => {
+	let border = `2px solid ${borderColor}`;
+	if (hideBorder !== undefined) {
+		border = '2px solid transparent';
+	}
+	// ${console.log(window.innerHeight)}
+	const card = `
   <svg class="" onload="myfunc()" id="qna" fill="none" xmlns="http://www.w3.org/2000/svg">
   <script>
         const myfunc = () => {
@@ -25,7 +36,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
         }
   </script>
     <foreignObject width="${width}" height="${height}">
-      <div xmlns="http://www.w3.org/1999/xhtml"> 
+      <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
           .qwidthDesktop{
             width: 500px;
@@ -68,16 +79,25 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
       </div>
     </foreignObject>
   </svg>`;
-  return card;
+	return card;
 };
 
+interface QuoteCardProps {
+	textColor: string;
+	bg: string;
+	borderColor: string;
+	codeColor: string;
+	qoute: string;
+	hideBorder?: boolean;
+}
+
 // Quotation type card
-const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => {
-  let border = `2px solid ${borderColor}`;
-  if (hideBorder !== undefined) {
-    border = '2px solid transparent';
-  }
-  const card = `
+export const quoteCard = ({ textColor, bg, borderColor, codeColor, qoute, hideBorder }: QuoteCardProps) => {
+	let border = `2px solid ${borderColor}`;
+	if (hideBorder !== undefined) {
+		border = '2px solid transparent';
+	}
+	const card = `
   <svg class="" onload="myfunc()" id="quoteC" fill="none" xmlns="http://www.w3.org/2000/svg">
   <script>
         const myfunc = () => {
@@ -135,10 +155,5 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
     </foreignObject>
   </svg>
   `;
-  return card;
-};
-
-module.exports = {
-  qnaCard,
-  quoteCard,
+	return card;
 };

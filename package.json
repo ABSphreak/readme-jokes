@@ -1,11 +1,11 @@
 {
   "name": "readme-jokes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "README Jokes",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix ."
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn server.ts",
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,14 @@
   },
   "homepage": "https://github.com/ABSphreak/readme-jokes#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
-  }
+    "@types/express": "^5.0.0",
+    "@types/node": "^20",
+    "eslint": "^9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "main": "server.ts"
 }
